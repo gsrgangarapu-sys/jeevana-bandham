@@ -1,6 +1,6 @@
 import { j as jsxRuntimeExports } from "./_libs/react.mjs";
 import { L as Link } from "./_libs/tanstack__react-router.mjs";
-import { R as Route } from "./_ssr/router-B9FZA0Qn.mjs";
+import { R as Route } from "./_ssr/router-C8NAIE59.mjs";
 import { A as ArrowLeft, M as MessageCircleHeart } from "./_libs/lucide-react.mjs";
 import "./_libs/tanstack__router-core.mjs";
 import "./_libs/tanstack__history.mjs";

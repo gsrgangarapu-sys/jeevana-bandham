@@ -1,7 +1,7 @@
-import { j as jsxRuntimeExports } from "../_libs/react.mjs";
+import { j as jsxRuntimeExports, r as reactExports } from "../_libs/react.mjs";
 import { L as Link } from "../_libs/tanstack__react-router.mjs";
-import { s as stories } from "./router-B9FZA0Qn.mjs";
-import { H as Heart, a as CircleAlert, P as Phone, b as ArrowRight, c as ShieldCheck, M as MessageCircleHeart } from "../_libs/lucide-react.mjs";
+import { s as stories } from "./router-C8NAIE59.mjs";
+import { H as Heart, d as CircleAlert, P as Phone, f as ArrowRight, g as ShieldCheck, M as MessageCircleHeart } from "../_libs/lucide-react.mjs";
 import "../_libs/tanstack__router-core.mjs";
 import "../_libs/tanstack__history.mjs";
 import "../_libs/cookie-es.mjs";
@@ -17,22 +17,107 @@ import "stream";
 import "../_libs/isbot.mjs";
 import "../_libs/tanstack__query-core.mjs";
 import "../_libs/tanstack__react-query.mjs";
-const heroHands = "/assets/hero-hands-NxineZFe.jpg";
 const helplines = [{
   name: "Vandrevala Foundation",
-  number: "982-046-6726",
-  note: "24/7 మద్దతు",
-  tel: "9820466726"
+  number: "9999 666 555",
+  note: "24/7, అన్ని భాషలు",
+  tel: "9999666555",
+  whatsapp: true
 }, {
-  name: "ROSHNI Helpline",
-  number: "040-66202000",
-  note: "తెలుగులో సహాయం",
-  tel: "04066202000"
+  name: "Tele MANAS",
+  number: "14416",
+  note: "ప్రభుత్వం, 20+ భాషలు",
+  tel: "14416"
 }, {
-  name: "iCall Emotional Support",
-  number: "9152987821",
-  note: "24x7",
-  tel: "9152987821"
+  name: "MPower Minds",
+  number: "1800-120-820050",
+  note: "24/7",
+  tel: "1800120820050"
+}, {
+  name: "AASRA",
+  number: "02227546669",
+  note: "24/7",
+  tel: "02227546669"
+}, {
+  name: "Jeevan Aastha",
+  number: "18002333330",
+  note: "24/7",
+  tel: "18002333330"
+}, {
+  name: "Fortis",
+  number: "8376804102",
+  note: "24/7, 13+ భాషలు",
+  tel: "8376804102"
+}, {
+  name: "1Life",
+  number: "7893078930",
+  note: "5am-12am, అన్ని భాషలు",
+  tel: "7893078930"
+}, {
+  name: "Voice That Cares",
+  number: "8448-8448-45",
+  note: "9am-9pm, తెలుగు",
+  tel: "8448844845"
+}, {
+  name: "Roshni Trust",
+  number: "8142020033",
+  note: "11am-9pm, తెలుగు",
+  tel: "8142020033"
+}, {
+  name: "iCALL",
+  number: "022-25521111",
+  note: "10am-8pm, తెలుగు",
+  tel: "02225521111"
+}, {
+  name: "KIRAN",
+  number: "1800-5990019",
+  note: "24/7, ప్రభుత్వం",
+  tel: "18005990019"
+}, {
+  name: "NIMHANS",
+  number: "080-46110007",
+  note: "మానసిక ఆరోగ్యం",
+  tel: "08046110007"
+}, {
+  name: "Connecting Trust",
+  number: "9922004305",
+  note: "12pm-8pm",
+  tel: "9922004305"
+}, {
+  name: "Mann Talks",
+  number: "8686139139",
+  note: "9am-8pm",
+  tel: "8686139139"
+}, {
+  name: "Parivarthan",
+  number: "7676602602",
+  note: "1pm-10pm",
+  tel: "7676602602"
+}, {
+  name: "COOJ",
+  number: "6361612525",
+  note: "1pm-7pm",
+  tel: "6361612525"
+}, {
+  name: "HEAL Foundation",
+  number: "8108172432",
+  note: "2pm-9pm, తెలుగు",
+  tel: "8108172432"
+}, {
+  name: "Lifeline",
+  number: "9088030303",
+  note: "10am-10pm",
+  tel: "9088030303"
+}, {
+  name: "Sumaitri",
+  number: "23389090",
+  note: "12:30pm-5pm",
+  tel: "23389090"
+}, {
+  name: "Ankahee",
+  number: "8655486966",
+  note: "4pm-10pm",
+  tel: "8655486966"
 }];
 const impacts = [{
   icon: "🍛",
@@ -71,11 +156,11 @@ function Nav() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-display text-xl font-bold tracking-tight text-brand-primary", children: "జీవన బంధం" })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "hidden md:flex items-center gap-1 text-sm font-medium", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "/#stories", className: "px-3 py-2 rounded-full hover:bg-brand-warm/10 transition-colors", children: "కథలు" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/support", className: "px-3 py-2 rounded-full hover:bg-brand-warm/10 transition-colors", children: "కౌన్సెలింగ్" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "/#stories", className: "px-3 py-2 rounded-full hover:bg-brand-warm/10 transition-colors font-bold text-brand-primary", children: "Blog / కథలు" }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/pre-marriage", className: "px-3 py-2 rounded-full hover:bg-brand-warm/10 transition-colors", children: "ప్రీ-మ్యారేజ్ గైడ్" }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/vasus-story", className: "px-3 py-2 rounded-full hover:bg-brand-warm/10 transition-colors", children: "వాసు కథ" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "/#child-impact", className: "px-3 py-2 rounded-full hover:bg-brand-warm/10 transition-colors", children: "పిల్లల రక్షణ" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/support", className: "px-3 py-2 rounded-full hover:bg-brand-warm/10 transition-colors", children: "సహాయం" })
+      /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "/#child-impact", className: "px-3 py-2 rounded-full hover:bg-brand-warm/10 transition-colors", children: "పిల్లల రక్షణ" })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/support", className: "bg-brand-primary text-primary-foreground px-5 py-2.5 rounded-full text-sm font-bold shadow-warm hover:scale-105 active:scale-95 transition-transform flex items-center gap-2", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx(CircleAlert, { className: "size-4" }),
@@ -83,38 +168,112 @@ function Nav() {
     ] })
   ] }) });
 }
+const quotes = ["“ఒక నిర్ణయం రెండు జీవితాలను విరిచేస్తుంది. ఒక నిమిషం ఆగితే కుటుంబం కాపాడబడుతుంది.”", "“మీ గతం మీ భవిష్యత్తును నిర్ణయించదు... మీరు ఈ రోజు తీసుకునే నిర్ణయమే మీ భవిష్యత్తు.”", "“విడాకులు జీవితానికి ముగింపు కాదు, కొత్త అధ్యాయానికి నాంది మాత్రమే.”", "“ప్రతి చీకటి రాత్రి తర్వాత ఒక అందమైన ఉదయం ఉంటుంది.”", "“ప్రతి బంధానికి మరమ్మత్తు అవసరం అవుతుంది... కానీ మరమ్మత్తు కంటే ముఖ్యం కాపాడుకోవాలనే నిర్ణయం.”", "“సింగిల్ పేరెంట్ కావడం ఒక సవాలు, కానీ అది మిమ్మల్ని మరింత బలంగా మారుస్తుంది.”", "“ఆత్మహత్య పరిష్కారం కాదు, అది మీ ప్రియమైన వారికి మీరు ఇచ్చే అతిపెద్ద శిక్ష.”", "“మీలో మార్పు తీసుకురావాలనే ఆ కోరికే... మీరు ఇంకా ఓడిపోలేదనడానికి గొప్ప సాక్ష్యం.”", "“ఒంటరిగా ఎదుర్కోవాల్సిన అవసరం లేదు... సహాయం కోరడం బలహీనత కాదు, అది ధైర్యం.”", "“ప్రతి సమస్య ఒక పాఠం... ప్రతి పాఠం ఒక బలం... ప్రతి బలం ఒక కొత్త ఆరంభం.”"];
+function AnimatedQuotes() {
+  const [index, setIndex] = reactExports.useState(0);
+  reactExports.useEffect(() => {
+    const timer = setInterval(() => {
+      setIndex((prev) => (prev + 1) % quotes.length);
+    }, 5e3);
+    return () => clearInterval(timer);
+  }, []);
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "h-28 md:h-24 relative flex items-center", children: quotes.map((quote, i) => /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: `absolute w-full italic text-xl md:text-2xl text-muted-foreground transition-all duration-1000 ${i === index ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4 pointer-events-none"}`, children: quote }, i)) });
+}
+const heroImages = ["https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1529634597503-139d3726fed5?w=800&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&auto=format&fit=crop&q=80", "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&auto=format&fit=crop&q=80"];
+function HeroCarousel() {
+  const [index, setIndex] = reactExports.useState(0);
+  reactExports.useEffect(() => {
+    const timer = setInterval(() => {
+      setIndex((prev) => (prev + 1) % heroImages.length);
+    }, 4e3);
+    return () => clearInterval(timer);
+  }, []);
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative rounded-[2rem] shadow-warm aspect-[4/3] border border-brand-warm/20 hidden lg:block overflow-hidden w-full max-w-[600px] hover:scale-[1.02] transition-transform duration-500", children: [
+    heroImages.map((img, i) => /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: img, alt: `Hero hopeful moment ${i + 1}`, className: `absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${i === index ? "opacity-100" : "opacity-0"}` }, i)),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute bottom-5 left-1/2 -translate-x-1/2 flex gap-2 z-10", children: heroImages.map((_, i) => /* @__PURE__ */ jsxRuntimeExports.jsx("button", { onClick: () => setIndex(i), className: `transition-all duration-300 rounded-full h-2 shadow-sm ${i === index ? "w-6 bg-brand-primary" : "w-2 bg-white/70 hover:bg-white"}`, "aria-label": `Go to slide ${i + 1}` }, i)) })
+  ] });
+}
 function Hero() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "relative overflow-hidden", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { "aria-hidden": true, className: "absolute inset-0 -z-10 opacity-60", style: {
       background: "radial-gradient(60% 50% at 50% 0%, color-mix(in oklab, var(--brand-warm) 25%, transparent) 0%, transparent 70%)"
     } }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-6xl mx-auto px-6 pt-16 pb-10 md:pt-24 md:pb-16 grid md:grid-cols-[1.3fr_1fr] gap-12 items-center", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-16 items-center relative z-10 w-full", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-warm/15 text-brand-primary text-xs font-bold uppercase tracking-wider mb-6", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-warm/15 text-brand-primary text-xs font-bold uppercase tracking-wider mb-6 border border-brand-warm/30 shadow-sm", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "size-1.5 rounded-full bg-brand-primary animate-breathe" }),
-          "తెలుగు కుటుంబ సహాయ వేదిక"
+          "🌸 జీవన బంధం — Life Changing Platform"
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "font-display text-4xl md:text-6xl font-bold leading-[1.15] text-balance mb-6", children: [
-          "“ఒక నిర్ణయం రెండు జీవితాలను విరిచేస్తుంది.",
-          " ",
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-brand-primary italic", children: "ఒక నిమిషం ఆగితే" }),
-          " కుటుంబం కాపాడబడుతుంది.”"
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "text-5xl md:text-6xl font-extrabold leading-[1.2] mb-6 font-display text-foreground", children: [
+          "ప్రతి ",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-brand-primary", children: "బంధం" }),
+          " ఒక",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-brand-primary", children: "జీవితం" }),
+          "... ప్రతి జీవితం",
+          /* @__PURE__ */ jsxRuntimeExports.jsx("br", { className: "md:hidden" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-brand-primary md:ml-3", children: "విలువైనది" })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed mb-8", children: "కుటుంబాలు, మహిళలు, పిల్లలు, ఒంటరితనంతో బాధపడుతున్న వారికి ప్రేమతో, గౌరవంతో దారి చూపే వేదిక." }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-3", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/support", className: "animate-heartbeat bg-brand-primary text-primary-foreground px-7 py-4 rounded-2xl font-bold text-base flex items-center gap-3 shadow-warm", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(CircleAlert, { className: "size-5" }),
-            "నేను జీవితంలో అలసిపోయాను"
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mb-6 leading-relaxed", children: /* @__PURE__ */ jsxRuntimeExports.jsx(AnimatedQuotes, {}) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-brand-warm/10 border-l-4 border-brand-primary p-6 rounded-2xl mb-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-lg md:text-xl font-semibold text-foreground m-0 leading-relaxed flex gap-3 items-start", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-2xl", children: "💛" }),
+          '"మీరు ఒంటరిగా లేరు. మేము మీతో ఉన్నాము. ఇప్పుడే మీ మొదటి అడుగు వేయండి."'
+        ] }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-6 md:gap-8 mb-10 text-foreground", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 md:gap-3", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-2xl md:text-3xl", children: "💛" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-base md:text-lg", children: "సహాయం" })
           ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "#stories", className: "bg-card text-foreground border-2 border-brand-warm/30 px-6 py-4 rounded-2xl font-semibold hover:bg-brand-warm/5 transition-colors flex items-center gap-2", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Heart, { className: "size-4 text-brand-primary" }),
-            "నాకు సహాయం కావాలి"
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 md:gap-3", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-2xl md:text-3xl", children: "🤝" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-base md:text-lg", children: "అవగాహన" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 md:gap-3", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-2xl md:text-3xl", children: "💪" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-base md:text-lg", children: "బలం" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 md:gap-3", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-2xl md:text-3xl", children: "🌈" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-bold text-base md:text-lg", children: "ఆశ" })
+          ] })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-4", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/support", className: "bg-brand-primary text-primary-foreground px-8 py-4 rounded-full font-bold text-lg shadow-warm hover:scale-105 transition-transform flex items-center gap-2", children: "💬 అజ్ఞాత చాట్ ప్రారంభించండి" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "#sos", className: "bg-card text-foreground px-8 py-4 rounded-full font-semibold text-lg border-2 border-brand-warm/30 hover:bg-brand-warm/10 transition-colors flex items-center gap-2 shadow-sm", children: "📞 హెల్ప్‌లైన్‌కు కాల్ చేయండి" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/child-protection", className: "bg-card text-foreground px-8 py-4 rounded-full font-semibold text-lg border-2 border-brand-warm/30 hover:bg-brand-warm/10 transition-colors flex items-center gap-2 shadow-sm", children: "📖 పిల్లల రక్షణ గైడ్ చదవండి" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-10 md:gap-16 mt-12 pt-8 border-t-2 border-brand-warm/20", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-3xl md:text-4xl font-extrabold text-brand-primary mb-1", children: "10,000+" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-muted-foreground text-xs md:text-sm font-bold uppercase tracking-wider", children: "కుటుంబాలకు సహాయం" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-3xl md:text-4xl font-extrabold text-brand-primary mb-1", children: "50+" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-muted-foreground text-xs md:text-sm font-bold uppercase tracking-wider", children: "నిపుణుల బృందం" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-3xl md:text-4xl font-extrabold text-brand-primary mb-1", children: "24/7" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-muted-foreground text-xs md:text-sm font-bold uppercase tracking-wider", children: "అందుబాటులో" })
           ] })
         ] })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute -inset-6 bg-brand-warm/20 rounded-[3rem] blur-2xl", "aria-hidden": true }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: heroHands, width: 1024, height: 1024, alt: "ఒక చేయి మరొక చేతిని ప్రేమతో పట్టుకుంటున్న వాత్సల్య చిత్రం", className: "relative rounded-[2rem] shadow-warm w-full object-cover aspect-square" })
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-8 justify-center items-center", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-brand-warm/5 p-1 md:p-2 rounded-[2rem] border border-brand-warm/20 shadow-warm text-center w-full relative group", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute -inset-1 bg-gradient-to-r from-brand-warm to-brand-primary rounded-[2.1rem] blur opacity-20 group-hover:opacity-40 transition duration-1000" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative bg-card p-8 md:p-10 rounded-[1.5rem] border border-brand-warm/10", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-7xl mb-6 drop-shadow-md", children: "🌸" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-foreground text-2xl md:text-3xl font-bold mb-3", children: "మీ ప్రయాణం మా మద్దతు" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground text-base md:text-lg leading-relaxed mb-8", children: '"ప్రతి సూర్యోదయం కొత్త ఆశను తెస్తుంది. ప్రతి నిర్ణయం కొత్త జీవితాన్ని ఇస్తుంది."' }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-3 md:gap-5 justify-center", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-3xl md:text-4xl hover:-translate-y-2 transition-transform cursor-default", children: "❤️" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-3xl md:text-4xl hover:-translate-y-2 transition-transform cursor-default", children: "💛" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-3xl md:text-4xl hover:-translate-y-2 transition-transform cursor-default", children: "💚" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-3xl md:text-4xl hover:-translate-y-2 transition-transform cursor-default", children: "💙" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-3xl md:text-4xl hover:-translate-y-2 transition-transform cursor-default", children: "💜" })
+            ] })
+          ] })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(HeroCarousel, {})
       ] })
     ] })
   ] });
@@ -135,11 +294,12 @@ function Intervention() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-xs text-muted-foreground mt-1", children: h.note })
     ] }, h.name)) }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col gap-3", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: "w-full py-4 bg-brand-primary text-primary-foreground rounded-2xl font-bold text-lg hover:opacity-95 transition-opacity shadow-warm", children: "నేను నా బిడ్డ కోసం ఒక్క నిమిషం ఆగుతాను" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/support", className: "w-full py-4 bg-brand-primary text-primary-foreground rounded-2xl font-bold text-lg hover:opacity-95 transition-opacity shadow-warm flex items-center justify-center gap-2", children: "🙏 నేను నా బిడ్డ కోసం ఒక్క నిమిషం ఆగుతాను" }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid sm:grid-cols-2 gap-3", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: "py-3 px-4 border-2 border-brand-warm/30 rounded-xl font-medium hover:bg-brand-warm/5 transition-colors", children: "కుటుంబాన్ని కాపాడుకోవాలనుకుంటున్నాను" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: "py-3 px-4 border-2 border-brand-warm/30 rounded-xl font-medium hover:bg-brand-warm/5 transition-colors", children: "విడాకులు? దయచేసి నాకు దారి చూపండి" })
-      ] })
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/support", className: "py-3 px-4 border-2 border-brand-warm/30 rounded-xl font-medium hover:bg-brand-warm/5 transition-colors flex items-center justify-center gap-2", children: "🏠 కుటుంబాన్ని కాపాడుకోవాలనుకుంటున్నాను" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/support", className: "py-3 px-4 border-2 border-brand-warm/30 rounded-xl font-medium hover:bg-brand-warm/5 transition-colors flex items-center justify-center gap-2", children: "💔 విడాకులు? దయచేసి నాకు దారి చూపండి" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/support", className: "py-3 px-4 border-2 border-brand-warm/30 rounded-xl font-medium hover:bg-brand-warm/5 transition-colors flex items-center justify-center gap-2 mt-2 bg-brand-cream dark:bg-brand-warm/5", children: "🤝 అజ్ఞాత చాట్ ప్రారంభించండి" })
     ] })
   ] }) });
 }
@@ -210,8 +370,8 @@ function ChildImpact() {
       ] })
     ] }, i.title)) }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-10 flex flex-col sm:flex-row gap-3 justify-center", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: "bg-brand-ink text-primary-foreground px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity", children: "ముందు కౌన్సెలింగ్ ప్రయత్నిస్తాను" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: "border-2 border-brand-ink/20 px-6 py-3 rounded-xl font-semibold hover:bg-brand-ink/5 transition-colors", children: "పిల్లలపై ప్రభావాన్ని తగ్గించే మార్గాలు" })
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/support", className: "bg-brand-ink text-primary-foreground px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity flex justify-center items-center", children: "ముందు కౌన్సెలింగ్ ప్రయత్నిస్తాను" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/child-protection", className: "border-2 border-brand-ink/20 px-6 py-3 rounded-xl font-semibold hover:bg-brand-ink/5 transition-colors flex justify-center items-center text-foreground", children: "పిల్లలపై ప్రభావాన్ని తగ్గించే మార్గాలు" })
     ] })
   ] }) });
 }
@@ -277,9 +437,10 @@ function Footer() {
   ] });
 }
 function FloatingSOS() {
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "#sos", "aria-label": "SOS సహాయం", className: "md:hidden fixed bottom-5 right-5 z-50 bg-brand-primary text-primary-foreground px-5 py-3 rounded-full font-bold shadow-warm animate-heartbeat flex items-center gap-2", children: [
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "#sos", "aria-label": "SOS సహాయం", className: "fixed bottom-5 left-5 z-50 bg-[#E94560] text-white px-5 py-3 rounded-full font-bold shadow-[0_8px_30px_rgba(233,69,96,0.4)] animate-pulse flex items-center gap-2 hover:scale-105 transition-transform", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(CircleAlert, { className: "size-5" }),
-    "SOS"
+    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "hidden sm:inline", children: "ఎమర్జెన్సీ సహాయం" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "sm:hidden", children: "SOS" })
   ] });
 }
 export {

@@ -40,9 +40,9 @@ const findRouteRules = /* @__PURE__ */ (() => {
     return r;
   };
 })();
-const _lazy_yo1Fe7 = defineLazyEventHandler(() => import("./_chunks/ssr-renderer.mjs"));
+const _lazy_suve7s = defineLazyEventHandler(() => import("./_chunks/ssr-renderer.mjs"));
 const findRoute = /* @__PURE__ */ (() => {
-  const data = { route: "/**", handler: _lazy_yo1Fe7 };
+  const data = { route: "/**", handler: _lazy_suve7s };
   return ((_m, p) => {
     return { data, params: { "_": p.slice(1) } };
   });
