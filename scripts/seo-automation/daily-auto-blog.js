@@ -404,17 +404,28 @@ export async function runDailyAutoBlog() {
     }
   }
 
-  // 4. Git Add, Commit & Push
+  // 4. Build, Stage, Commit, Push & Deploy to Vercel
   try {
-    console.log("Staging git changes...");
-    execSync("git add src/data/blogArticles.tsx public/sitemap.xml public/llms.txt", { cwd: REPO_ROOT, stdio: "inherit" });
+    console.log("Building production bundle (SSR and static routes)...");
+    execSync("npm run build", { cwd: REPO_ROOT, stdio: "inherit" });
+
+    console.log("Staging git changes including prebuilt Vercel output...");
+    execSync("git add src/data/blogArticles.tsx public/sitemap.xml public/llms.txt .vercel/output .gitignore", { cwd: REPO_ROOT, stdio: "inherit" });
     const commitMsg = `feat(blog): publish daily Telugu SEO guide - ${selectedTopic.titleEn} [${selectedTopic.slug}]`;
     execSync(`git commit -m "${commitMsg}"`, { cwd: REPO_ROOT, stdio: "inherit" });
     console.log("Pushing to GitHub remote main...");
     execSync("git push origin main", { cwd: REPO_ROOT, stdio: "inherit" });
     console.log("Successfully pushed to GitHub origin main!");
+
+    try {
+      console.log("Deploying prebuilt production release directly to Vercel...");
+      execSync("npx vercel deploy --prebuilt --prod", { cwd: REPO_ROOT, stdio: "inherit" });
+      console.log("Vercel production deployment completed successfully!");
+    } catch (deployErr) {
+      console.warn(`Direct Vercel deploy encountered a non-fatal warning: ${deployErr.message}`);
+    }
   } catch (gitErr) {
-    console.warn(`Git commit/push encountered a step: ${gitErr.message}`);
+    console.warn(`Build or Git commit/push encountered a step: ${gitErr.message}`);
   }
 
   // 5. Send Google Chat Notification
