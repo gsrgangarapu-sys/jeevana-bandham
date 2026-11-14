@@ -9,7 +9,8 @@
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "seo:daily": "node scripts/seo-automation/daily-auto-blog.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

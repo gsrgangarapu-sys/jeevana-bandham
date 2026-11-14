@@ -1,0 +1,44 @@
+name: Jeevana Bandham Daily Blog & SEO Automation
+
+on:
+  schedule:
+    # Run every day at 04:00 UTC (09:30 AM India Standard Time)
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  daily-blog-auto:
+    name: Generate Telugu SEO Blog, Update Sitemaps & Push
+    runs-on: ubuntu-latest
+    env:
+      GOOGLE_CHAT_WEBHOOK_URL: "https://chat.googleapis.com/v1/spaces/AAQACHJ1rC8/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=1UnFa25iYnNkNqy6yjkmpppbUFxUT0Yf4FUmTX8uWi4"
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Configure Git User
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run Daily Auto-Blog Publisher & Notification
+        run: node scripts/seo-automation/daily-auto-blog.js
+
+      - name: Push Changes to Main
+        run: |
+          git push origin main || echo "No changes to push or already pushed by script"

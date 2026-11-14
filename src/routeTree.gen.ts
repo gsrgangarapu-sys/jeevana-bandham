@@ -15,7 +15,9 @@ import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as PreMarriageRouteImport } from './routes/pre-marriage'
 import { Route as ChildProtectionRouteImport } from './routes/child-protection'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as BlogIndexRouteImport } from './routes/blog/index'
 import { Route as StoriesStoryIdRouteImport } from './routes/stories/$storyId'
+import { Route as BlogSlugRouteImport } from './routes/blog/$slug'
 
 const VasusStoryRoute = VasusStoryRouteImport.update({
   id: '/vasus-story',
@@ -47,9 +49,19 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BlogIndexRoute = BlogIndexRouteImport.update({
+  id: '/blog/',
+  path: '/blog/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const StoriesStoryIdRoute = StoriesStoryIdRouteImport.update({
   id: '/stories/$storyId',
   path: '/stories/$storyId',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogSlugRoute = BlogSlugRouteImport.update({
+  id: '/blog/$slug',
+  path: '/blog/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 
@@ -60,7 +72,9 @@ export interface FileRoutesByFullPath {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/support': typeof SupportRoute
   '/vasus-story': typeof VasusStoryRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/stories/$storyId': typeof StoriesStoryIdRoute
+  '/blog/': typeof BlogIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -69,7 +83,9 @@ export interface FileRoutesByTo {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/support': typeof SupportRoute
   '/vasus-story': typeof VasusStoryRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/stories/$storyId': typeof StoriesStoryIdRoute
+  '/blog': typeof BlogIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -79,7 +95,9 @@ export interface FileRoutesById {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/support': typeof SupportRoute
   '/vasus-story': typeof VasusStoryRoute
+  '/blog/$slug': typeof BlogSlugRoute
   '/stories/$storyId': typeof StoriesStoryIdRoute
+  '/blog/': typeof BlogIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -90,7 +108,9 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/support'
     | '/vasus-story'
+    | '/blog/$slug'
     | '/stories/$storyId'
+    | '/blog/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -99,7 +119,9 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/support'
     | '/vasus-story'
+    | '/blog/$slug'
     | '/stories/$storyId'
+    | '/blog'
   id:
     | '__root__'
     | '/'
@@ -108,7 +130,9 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/support'
     | '/vasus-story'
+    | '/blog/$slug'
     | '/stories/$storyId'
+    | '/blog/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -118,7 +142,9 @@ export interface RootRouteChildren {
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   SupportRoute: typeof SupportRoute
   VasusStoryRoute: typeof VasusStoryRoute
+  BlogSlugRoute: typeof BlogSlugRoute
   StoriesStoryIdRoute: typeof StoriesStoryIdRoute
+  BlogIndexRoute: typeof BlogIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -165,11 +191,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/': {
+      id: '/blog/'
+      path: '/blog'
+      fullPath: '/blog/'
+      preLoaderRoute: typeof BlogIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/stories/$storyId': {
       id: '/stories/$storyId'
       path: '/stories/$storyId'
       fullPath: '/stories/$storyId'
       preLoaderRoute: typeof StoriesStoryIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/$slug': {
+      id: '/blog/$slug'
+      path: '/blog/$slug'
+      fullPath: '/blog/$slug'
+      preLoaderRoute: typeof BlogSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
@@ -182,7 +222,9 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   SupportRoute: SupportRoute,
   VasusStoryRoute: VasusStoryRoute,
+  BlogSlugRoute: BlogSlugRoute,
   StoriesStoryIdRoute: StoriesStoryIdRoute,
+  BlogIndexRoute: BlogIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

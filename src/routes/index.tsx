@@ -1,5 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Phone, Heart, ShieldCheck, ArrowRight, MessageCircleHeart, AlertCircle } from "lucide-react";
+import { 
+  Phone, Heart, ShieldCheck, ArrowRight, MessageCircleHeart, AlertCircle,
+  BookOpen, Clock, Sparkles
+} from "lucide-react";
 import cartoonBride from "@/assets/cartoon-bride.jpg";
 import cartoonChild from "@/assets/cartoon-child.jpg";
 import cartoonFather from "@/assets/cartoon-father.jpg";
@@ -9,6 +12,7 @@ import cartoonTeen from "@/assets/cartoon-teen.jpg";
 import heroHands from "@/assets/hero-hands.jpg";
 import heroHope from "@/assets/hero-hope.png";
 import { stories } from "@/data/stories";
+import { ALL_BLOG_ARTICLES } from "@/data/blogArticles";
 import { useState, useEffect } from "react";
 
 export const Route = createFileRoute("/")({
@@ -39,29 +43,15 @@ export const Route = createFileRoute("/")({
 });
 
 const helplines = [
+  { name: "Tele MANAS (ప్రభుత్వం)", number: "14416", note: "24/7, ఉచిత తెలుగు టోల్‌ఫ్రీ", tel: "14416" },
+  { name: "జాతీయ ఎమర్జెన్సీ", number: "112", note: "24/7 అత్యవసర సాయం", tel: "112" },
   { name: "Vandrevala Foundation", number: "9999 666 555", note: "24/7, అన్ని భాషలు", tel: "9999666555", whatsapp: true },
-  { name: "Tele MANAS", number: "14416", note: "ప్రభుత్వం, 20+ భాషలు", tel: "14416" },
-  { name: "MPower Minds", number: "1800-120-820050", note: "24/7", tel: "1800120820050" },
-  { name: "AASRA", number: "02227546669", note: "24/7", tel: "02227546669" },
-  { name: "Jeevan Aastha", number: "18002333330", note: "24/7", tel: "18002333330" },
-  { name: "Fortis", number: "8376804102", note: "24/7, 13+ భాషలు", tel: "8376804102" },
-  { name: "1Life", number: "7893078930", note: "5am-12am, అన్ని భాషలు", tel: "7893078930" },
-  { name: "Voice That Cares", number: "8448-8448-45", note: "9am-9pm, తెలుగు", tel: "8448844845" },
-  { name: "Roshni Trust", number: "8142020033", note: "11am-9pm, తెలుగు", tel: "8142020033" },
-  { name: "iCALL", number: "022-25521111", note: "10am-8pm, తెలుగు", tel: "02225521111" },
-  { name: "KIRAN", number: "1800-5990019", note: "24/7, ప్రభుత్వం", tel: "18005990019" },
-  { name: "NIMHANS", number: "080-46110007", note: "మానసిక ఆరోగ్యం", tel: "08046110007" },
-  { name: "Connecting Trust", number: "9922004305", note: "12pm-8pm", tel: "9922004305" },
-  { name: "Mann Talks", number: "8686139139", note: "9am-8pm", tel: "8686139139" },
-  { name: "Parivarthan", number: "7676602602", note: "1pm-10pm", tel: "7676602602" },
-  { name: "COOJ", number: "6361612525", note: "1pm-7pm", tel: "6361612525" },
-  { name: "HEAL Foundation", number: "8108172432", note: "2pm-9pm, తెలుగు", tel: "8108172432" },
-  { name: "Lifeline", number: "9088030303", note: "10am-10pm", tel: "9088030303" },
-  { name: "Sumaitri", number: "23389090", note: "12:30pm-5pm", tel: "23389090" },
-  { name: "Ankahee", number: "8655486966", note: "4pm-10pm", tel: "8655486966" }
+  { name: "Childline (పిల్లల రక్షణ)", number: "1098", note: "24/7 టోల్‌ఫ్రీ సాయం", tel: "1098" },
+  { name: "మహిళా హెల్ప్‌లైన్", number: "181", note: "24/7 మహిళల భద్రత", tel: "181" },
+  { name: "AASRA (క్రైసిస్ హెల్ప్)", number: "022-27546669", note: "24/7", tel: "02227546669" },
+  { name: "KIRAN (మానసిక ఆరోగ్యం)", number: "1800-599-0019", note: "24/7, ప్రభుత్వం", tel: "18005990019" },
+  { name: "1Life (ఆశల బాట)", number: "7893078930", note: "5am-12am, తెలుగు", tel: "7893078930" }
 ];
-
-
 
 const impacts = [
   { icon: "🍛", title: "రోజువారీ భోజనం", body: "ఇంటి వంట vs హాస్టల్ లేదా వేరే వాతావరణం. వారి ఆరోగ్యంపై ప్రభావం పడవచ్చు." },
@@ -78,6 +68,7 @@ function Home() {
       <Intervention />
       <Stories />
       <NewGuides />
+      <LatestBlogArticles />
       <ChildImpact />
       <AnonymousChat />
       <Footer />
@@ -100,10 +91,10 @@ function Nav() {
         </Link>
         <div className="hidden md:flex items-center gap-1 text-sm font-medium">
           <Link to="/support" className="px-3 py-2 rounded-full hover:bg-brand-warm/10 transition-colors">కౌన్సెలింగ్</Link>
-          <a href="/#stories" className="px-3 py-2 rounded-full hover:bg-brand-warm/10 transition-colors font-bold text-brand-primary">Blog / కథలు</a>
+          <Link to="/blog" className="px-3 py-2 rounded-full hover:bg-brand-warm/10 transition-colors font-bold text-brand-primary">బ్లాగ్ & కథనాలు</Link>
           <Link to="/pre-marriage" className="px-3 py-2 rounded-full hover:bg-brand-warm/10 transition-colors">ప్రీ-మ్యారేజ్ గైడ్</Link>
           <Link to="/vasus-story" className="px-3 py-2 rounded-full hover:bg-brand-warm/10 transition-colors">వాసు కథ</Link>
-          <a href="/#child-impact" className="px-3 py-2 rounded-full hover:bg-brand-warm/10 transition-colors">పిల్లల రక్షణ</a>
+          <Link to="/child-protection" className="px-3 py-2 rounded-full hover:bg-brand-warm/10 transition-colors">పిల్లల రక్షణ</Link>
         </div>
         <Link
           to="/support"
@@ -264,32 +255,32 @@ function Hero() {
             >
               💬 అజ్ఞాత చాట్ ప్రారంభించండి
             </Link>
-            <a
-              href="#sos"
+            <Link
+              to="/blog"
               className="bg-card text-foreground px-8 py-4 rounded-full font-semibold text-lg border-2 border-brand-warm/30 hover:bg-brand-warm/10 transition-colors flex items-center gap-2 shadow-sm"
             >
-              📞 హెల్ప్‌లైన్‌కు కాల్ చేయండి
-            </a>
+              📚 బ్లాగ్ & కథనాలు చదవండి
+            </Link>
             <Link
               to="/child-protection"
               className="bg-card text-foreground px-8 py-4 rounded-full font-semibold text-lg border-2 border-brand-warm/30 hover:bg-brand-warm/10 transition-colors flex items-center gap-2 shadow-sm"
             >
-              📖 పిల్లల రక్షణ గైడ్ చదవండి
+              📖 పిల్లల రక్షణ గైడ్
             </Link>
           </div>
 
           <div className="flex flex-wrap gap-10 md:gap-16 mt-12 pt-8 border-t-2 border-brand-warm/20">
             <div>
-              <div className="text-3xl md:text-4xl font-extrabold text-brand-primary mb-1">10,000+</div>
-              <div className="text-muted-foreground text-xs md:text-sm font-bold uppercase tracking-wider">కుటుంబాలకు సహాయం</div>
-            </div>
-            <div>
-              <div className="text-3xl md:text-4xl font-extrabold text-brand-primary mb-1">50+</div>
-              <div className="text-muted-foreground text-xs md:text-sm font-bold uppercase tracking-wider">నిపుణుల బృందం</div>
-            </div>
-            <div>
               <div className="text-3xl md:text-4xl font-extrabold text-brand-primary mb-1">24/7</div>
-              <div className="text-muted-foreground text-xs md:text-sm font-bold uppercase tracking-wider">అందుబాటులో</div>
+              <div className="text-muted-foreground text-xs md:text-sm font-bold uppercase tracking-wider">ఎల్లప్పుడూ అందుబాటులో</div>
+            </div>
+            <div>
+              <div className="text-3xl md:text-4xl font-extrabold text-brand-primary mb-1">100%</div>
+              <div className="text-muted-foreground text-xs md:text-sm font-bold uppercase tracking-wider">ఉచితం & గోప్యమైన సహాయం</div>
+            </div>
+            <div>
+              <div className="text-3xl md:text-4xl font-extrabold text-brand-primary mb-1">112 / 14416</div>
+              <div className="text-muted-foreground text-xs md:text-sm font-bold uppercase tracking-wider">ప్రభుత్వ హెల్ప్‌లైన్లు</div>
             </div>
           </div>
         </div>
@@ -336,12 +327,12 @@ function Intervention() {
           మీ బిడ్డకు మీరు చాలా అవసరం.
         </p>
 
-        <div id="help" className="grid sm:grid-cols-3 gap-3 mb-10 scroll-mt-20">
-          {helplines.map((h) => (
+        <div id="help" className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 mb-10 scroll-mt-20">
+          {helplines.slice(0, 4).map((h) => (
             <a
               key={h.name}
               href={`tel:${h.tel}`}
-              className="group p-5 bg-brand-cream rounded-2xl border border-brand-warm/30 hover:border-brand-primary/50 hover:-translate-y-0.5 transition-all text-left"
+              className="group p-5 bg-brand-cream dark:bg-brand-warm/5 rounded-2xl border border-brand-warm/30 hover:border-brand-primary/50 hover:-translate-y-0.5 transition-all text-left"
             >
               <div className="flex items-center gap-2 text-brand-primary text-xs font-bold uppercase tracking-wider mb-2">
                 <Phone className="size-3.5" />
@@ -382,9 +373,9 @@ function Stories() {
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-2">కార్టూన్ ఎమోషన్ స్టోర్</h2>
           <p className="text-muted-foreground">మీ మనసులోని మాటను ఈ బొమ్మల ద్వారా చెప్పండి</p>
         </div>
-        <button className="text-brand-primary font-bold flex items-center gap-1 group">
+        <Link to="/blog" className="text-brand-primary font-bold flex items-center gap-1 group">
           అన్నీ చూడండి <ArrowRight className="size-4 group-hover:translate-x-1 transition-transform" />
-        </button>
+        </Link>
       </div>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -457,6 +448,70 @@ function NewGuides() {
   );
 }
 
+function LatestBlogArticles() {
+  const featuredArticles = ALL_BLOG_ARTICLES.slice(0, 3);
+
+  return (
+    <section className="max-w-6xl mx-auto px-6 py-16 border-t border-brand-warm/20">
+      <div className="flex flex-wrap justify-between items-end gap-4 mb-10">
+        <div>
+          <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-warm/15 text-brand-primary text-xs font-bold uppercase tracking-wider mb-3">
+            <Sparkles className="size-3.5" />
+            తెలుగు కౌన్సెలింగ్ & మార్గదర్శక బ్లాగ్
+          </span>
+          <h2 className="font-display text-3xl md:text-4xl font-bold mb-2">
+            తాజా బ్లాగ్ & మార్గదర్శక వ్యాసాలు
+          </h2>
+          <p className="text-muted-foreground max-w-xl">
+            వైవాహిక శాంతి, భార్యాభర్తల అన్యోన్యత, పిల్లల సంరక్షణ మరియు మానసిక ఆరోగ్యంపై నిపుణుల ఆర్టికల్స్.
+          </p>
+        </div>
+        <Link 
+          to="/blog" 
+          className="bg-brand-primary text-primary-foreground px-6 py-2.5 rounded-full text-sm font-bold shadow-sm hover:opacity-90 transition-opacity flex items-center gap-2"
+        >
+          <BookOpen className="size-4" />
+          అన్ని ఆర్టికల్స్ చూడండి ({ALL_BLOG_ARTICLES.length})
+          <ArrowRight className="size-4" />
+        </Link>
+      </div>
+
+      <div className="grid md:grid-cols-3 gap-6">
+        {featuredArticles.map((article) => (
+          <Link
+            key={article.slug}
+            to="/blog/$slug"
+            params={{ slug: article.slug }}
+            className="bg-card rounded-3xl p-6 border border-brand-warm/20 hover:border-brand-primary/50 hover:shadow-warm hover:-translate-y-1 transition-all flex flex-col justify-between group"
+          >
+            <div>
+              <div className="flex items-center justify-between gap-2 text-xs text-muted-foreground mb-3">
+                <span className="px-2.5 py-1 bg-brand-warm/15 text-brand-primary font-bold rounded-full text-[11px]">
+                  {article.category}
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="size-3" />
+                  {article.readTime}
+                </span>
+              </div>
+              <h3 className="font-display font-bold text-lg mb-2 group-hover:text-brand-primary transition-colors line-clamp-2">
+                {article.title}
+              </h3>
+              <p className="text-sm text-muted-foreground line-clamp-3 leading-relaxed mb-4">
+                {article.excerpt}
+              </p>
+            </div>
+            <div className="pt-4 border-t border-brand-warm/10 flex items-center justify-between text-xs font-bold text-brand-primary">
+              <span>పూర్తి గైడ్ చదవండి</span>
+              <ArrowRight className="size-4 group-hover:translate-x-1 transition-transform" />
+            </div>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function ChildImpact() {
   return (
     <section id="child-impact" className="bg-brand-warm/5 py-20 px-6 scroll-mt-20 border-y border-brand-warm/15">
@@ -508,10 +563,10 @@ function AnonymousChat() {
             మీ పేరు అవసరం లేదు. మీ కథ సురక్షితం. ఒక శిక్షణ పొందిన కౌన్సెలర్‌తో అజ్ఞాతంగా చర్చించండి.
           </p>
         </div>
-        <button className="bg-card text-brand-primary px-7 py-4 rounded-full font-bold whitespace-nowrap hover:scale-105 transition-transform flex items-center gap-2 shadow-warm relative">
+        <Link to="/support" className="bg-card text-brand-primary px-7 py-4 rounded-full font-bold whitespace-nowrap hover:scale-105 transition-transform flex items-center gap-2 shadow-warm relative">
           <MessageCircleHeart className="size-5" />
           అజ్ఞాత చాట్ ప్రారంభించండి
-        </button>
+        </Link>
       </div>
     </section>
   );
@@ -533,7 +588,7 @@ function Footer() {
           </p>
         </div>
         <div>
-          <h5 className="text-white font-bold mb-4 text-sm uppercase tracking-wider">హెల్ప్‌లైన్</h5>
+          <h5 className="text-white font-bold mb-4 text-sm uppercase tracking-wider">హెల్ప్‌లైన్లు (24/7)</h5>
           <ul className="space-y-2 text-sm">
             {helplines.map((h) => (
               <li key={h.name} className="tabular-nums">
@@ -547,22 +602,21 @@ function Footer() {
         <div>
           <h5 className="text-white font-bold mb-4 text-sm uppercase tracking-wider">విభాగాలు</h5>
           <ul className="space-y-2 text-sm">
+            <li><Link to="/blog" className="hover:text-brand-warm transition-colors">బ్లాగ్ & కథనాలు</Link></li>
             <li><Link to="/pre-marriage" className="hover:text-brand-warm transition-colors">ప్రీ-మ్యారేజ్ గైడ్</Link></li>
+            <li><Link to="/child-protection" className="hover:text-brand-warm transition-colors">పిల్లల రక్షణ సాధనం</Link></li>
             <li><Link to="/vasus-story" className="hover:text-brand-warm transition-colors">వాసు ప్రేమకథ</Link></li>
-            <li><Link to="/pre-marriage" className="hover:text-brand-warm transition-colors">ప్రీ-మ్యారేజ్ గైడ్</Link></li>
-            <li><Link to="/vasus-story" className="hover:text-brand-warm transition-colors">వాసు ప్రేమకథ</Link></li>
+            <li><Link to="/support" className="hover:text-brand-warm transition-colors">కౌన్సెలింగ్ & SOS సహాయం</Link></li>
             <li><a href="#stories" className="hover:text-brand-warm transition-colors">కార్టూన్ స్టోర్</a></li>
-            <li><a href="#child-impact" className="hover:text-brand-warm transition-colors">పిల్లల రక్షణ</a></li>
-            <li><a href="#sos" className="hover:text-brand-warm transition-colors">SOS సహాయం</a></li>
-            <li><a href="#help" className="hover:text-brand-warm transition-colors">అజ్ఞాత చాట్</a></li>
           </ul>
         </div>
       </div>
       <div className="max-w-6xl mx-auto mt-12 pt-8 border-t border-white/10 text-xs leading-relaxed text-stone-400">
         <p className="mb-3">
-          <strong className="text-stone-200">డిస్క్లైమర్:</strong> ఈ వెబ్‌సైట్ సహాయం కోసం మాత్రమే. తీవ్రమైన మానసిక సమస్యలకు
-          దయచేసి మానసిక వైద్యుడిని లేదా హెల్ప్‌లైన్‌ను సంప్రదించండి. మీరు ఆత్మహత్య ఆలోచనలో ఉంటే వెంటనే{" "}
-          <a href="tel:9820466726" className="text-brand-warm font-semibold">982-046-6726</a> కు కాల్ చేయండి.
+          <strong className="text-stone-200">డిస్క్లైమర్:</strong> ఈ వెబ్‌సైట్ అవగాహన మరియు మానసిక మద్దతు కోసం మాత్రమే. 
+          తీవ్రమైన మానసిక సంక్షోభం లేదా ఆత్మహత్య ఆలోచనలలో ఉంటే వెంటనే జాతీయ ఎమర్జెన్సీ నంబర్{" "}
+          <a href="tel:112" className="text-brand-warm font-semibold">112</a> లేదా టెలి-మానస్ ఉచిత టోల్‌ఫ్రీ నంబర్{" "}
+          <a href="tel:14416" className="text-brand-warm font-semibold">14416</a> కు కాల్ చేయండి.
         </p>
         <p className="text-center opacity-60">© {new Date().getFullYear()} Jeevana Bandham. Built with love for Telugu families.</p>
       </div>
@@ -572,14 +626,14 @@ function Footer() {
 
 function FloatingSOS() {
   return (
-    <a
-      href="#sos"
+    <Link
+      to="/support"
       aria-label="SOS సహాయం"
       className="fixed bottom-5 left-5 z-50 bg-[#E94560] text-white px-5 py-3 rounded-full font-bold shadow-[0_8px_30px_rgba(233,69,96,0.4)] animate-pulse flex items-center gap-2 hover:scale-105 transition-transform"
     >
       <AlertCircle className="size-5" />
-      <span className="hidden sm:inline">ఎమర్జెన్సీ సహాయం</span>
+      <span className="hidden sm:inline">ఎమర్జెన్సీ సహాయం (14416)</span>
       <span className="sm:hidden">SOS</span>
-    </a>
+    </Link>
   );
 }
