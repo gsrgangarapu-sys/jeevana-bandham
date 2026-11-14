@@ -18,54 +18,20 @@ export async function sendGoogleChatNotification({
 }) {
   const statusEmoji = status === "SUCCESS" ? "💛" : status === "WARNING" ? "🟡" : "🔴";
 
-  const card = {
-    header: {
-      title: `${statusEmoji} ${title}`,
-      subtitle: subtitle || "జీవన బంధం (Jeevana Bandham) SEO & Blog Bot",
-      imageUrl: "https://i.ibb.co/nNy5WSYw/home.png",
-      imageType: "CIRCLE"
-    },
-    sections: [
-      {
-        widgets: [
-          ...(text ? [{ textParagraph: { text } }] : []),
-          ...(fields.length > 0 ? fields.map(f => ({
-            keyValue: {
-              topLabel: f.label,
-              content: f.value,
-              contentMultiline: "true"
-            }
-          })) : []),
-          ...(url ? [{
-            buttonList: {
-              buttons: [
-                {
-                  text: "ఆర్టికల్ చదవండి (Read Article)",
-                  onClick: {
-                    openLink: {
-                      url: url
-                    }
-                  }
-                }
-              ]
-            }
-          }] : [])
-        ]
-      }
-    ]
-  };
+  const messageText = `${statusEmoji} *${title}*\n_${subtitle || "జీవన బంధం (Jeevana Bandham) SEO Bot"}_\n\n${text || ""}\n${url ? `\n🔗 *ఆర్టికల్ లింక్:* ${url}` : ""}`;
 
   try {
     const res = await fetch(DEFAULT_WEBHOOK_URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ cards: [card] })
+      body: JSON.stringify({ text: messageText })
     });
 
     if (res.ok) {
       console.log(`[Google Chat] Alert delivered: "${title}"`);
     } else {
-      console.warn(`[Google Chat] Webhook responded with HTTP ${res.status}`);
+      const errText = await res.text();
+      console.warn(`[Google Chat] Webhook responded with HTTP ${res.status}: ${errText}`);
     }
   } catch (err) {
     console.warn(`[Google Chat] Webhook dispatch skipped: ${err.message}`);
