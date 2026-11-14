@@ -856,6 +856,116 @@ const ALL_BLOG_ARTICLES = [
         ] })
       ] })
     ] })
+  },
+  // అత్తమామలు మరియు కోడలి మధ్య సత్సంబంధాలు: తెలుగు కుటుంబాల్లో శాంతికి 6 సూత్రాలు
+  {
+    id: "resolving-in-laws-conflicts-in-telugu-families",
+    slug: "resolving-in-laws-conflicts-in-telugu-families",
+    title: "అత్తమామలు మరియు కోడలి మధ్య సత్సంబంధాలు: తెలుగు కుటుంబాల్లో శాంతికి 6 సూత్రాలు",
+    titleEn: "Resolving In-Laws Conflicts in Telugu Families: 6 Rules for Peaceful Relationships",
+    subtitle: "రెండు కుటుంబాల సంస్కృతి కలిసే చోట చిన్నపాటి సర్దుబాట్లు, హద్దులు మరియు పరస్పర గౌరవం ఉంటేనే వైవాహిక జీవితం ప్రశాంతంగా సాగుతుంది.",
+    category: "కుటుంబ సమస్యలు (Family)",
+    status: "published",
+    readTime: "7 నిమిషాలు",
+    date: "నవంబర్ 2026",
+    updatedDate: "2026-11-14",
+    author: {
+      name: "జీవన బంధం ఎడిటోరియల్ & కౌన్సెలింగ్ బోర్డు",
+      role: "సీనియర్ ఫ్యామిలీ కౌన్సెలర్"
+    },
+    primaryKeyword: "అత్తా కోడళ్ల సమస్యలు పరిష్కారం",
+    secondaryKeywords: ["in-laws relationship tips telugu", "కుటుంబంలో శాంతి", "భార్యాభర్తల మధ్య అత్తమామల ప్రమేయం", "తెలుగు ఉమ్మడి కుటుంబం"],
+    searchIntent: "Compassionate Counseling & Practical Guidance",
+    tags: ["కుటుంబం", "కౌన్సెలింగ్", "Family", "మానసిక ఆరోగ్యం", "జీవన బంధం"],
+    excerpt: "తెలుగు కుటుంబాల్లో అత్తాకోడళ్లు, అల్లుడు-మామల మధ్య వచ్చే సాధారణ ఘర్షణలను ఎలా సామరస్యంగా పరిష్కరించుకోవచ్చో తెలుసుకోండి.",
+    metaDescription: "తెలుగు కుటుంబాలలో అత్తమామలు మరియు కోడలి మధ్య సత్సంబంధాలు ఏర్పరచుకోవడానికి 6 కీలకమైన చిట్కాలు. శాంతియుత కుటుంబ జీవితానికి మార్గదర్శనం.",
+    canonicalUrl: "https://www.jeevanabandham.online/blog/resolving-in-laws-conflicts-in-telugu-families",
+    targetToolLink: "/support",
+    targetToolName: "కుటుంబ కౌన్సెలింగ్ సహాయం",
+    tableOfContents: [{ "id": "understanding-generations", "title": "1. తరాల మధ్య ఆలోచనా విధానాల తేడాను గుర్తించడం" }, { "id": "healthy-boundaries", "title": "2. గౌరవప్రదమైన హద్దులు (Boundaries) నిర్ణయించుకోవడం" }, { "id": "husband-role", "title": "3. భర్త పాత్ర: తల్లికి, భార్యకు మధ్య సమతుల్యత" }, { "id": "communication-not-criticism", "title": "4. విమర్శలకు బదులు మనసు విప్పి మాట్లాడటం" }, { "id": "building-mutual-respect", "title": "5. పరస్పర గౌరవాన్ని పెంపొందించుకోవడం" }],
+    faqs: [{ "question": "భార్య, తల్లి మధ్య గొడవలు వచ్చినప్పుడు భర్త ఎవరి పక్షం వహించాలి?", "answer": "భర్త ఏ ఒక్కరి పక్షాన ఉండకుండా న్యాయం, వాస్తవాల వైపు నిలబడాలి. ఇద్దరికీ ఒకరి ప్రాధాన్యత మరొకరికి అర్థమయ్యేలా విడివిడిగా ఓపికతో మాట్లాడాలి." }],
+    relatedSlugs: ["pre-marriage-10-things-to-know", "7-ways-to-reduce-husband-wife-conflicts"],
+    content: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6 text-slate-800 dark:text-slate-200 leading-relaxed", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6 rounded-3xl bg-amber-500/10 border border-amber-500/30 text-amber-950 dark:text-amber-100 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 font-bold text-lg text-amber-800 dark:text-amber-300", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Heart, { className: "h-5 w-5 text-amber-600 fill-current" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "జీవన బంధం మార్గదర్శక సందేశం" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm leading-relaxed", children: "ప్రతి బంధంలోనూ సమస్యలు సహజం. వాటిని విమర్శలతో కాకుండా, ప్రేమతో, శాస్త్రీయ కౌన్సెలింగ్ విధానాలతో పరిష్కరించుకోవచ్చు. మీరు లేదా మీ ప్రియమైనవారు బాధపడుతుంటే వెంటనే సహాయం పొందండి." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "understanding-generations", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "1. తరాల మధ్య ఆలోచనా విధానాల తేడాను గుర్తించడం" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఆచరణాత్మక కార్యాచరణ చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "healthy-boundaries", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "2. గౌరవప్రదమైన హద్దులు (Boundaries) నిర్ణయించుకోవడం" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఆచరణాత్మక కార్యాచరణ చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "husband-role", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "3. భర్త పాత్ర: తల్లికి, భార్యకు మధ్య సమతుల్యత" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఆచరణాత్మక కార్యాచరణ చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "communication-not-criticism", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "4. విమర్శలకు బదులు మనసు విప్పి మాట్లాడటం" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఆచరణాత్మక కార్యాచరణ చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "building-mutual-respect", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "5. పరస్పర గౌరవాన్ని పెంపొందించుకోవడం" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఆచరణాత్మక కార్యాచరణ చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-8 p-6 rounded-3xl bg-brand-primary/10 border border-brand-primary/30 space-y-3", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-bold text-brand-primary flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "h-5 w-5" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "తక్షణ అత్యవసర సహాయం & కౌన్సెలింగ్" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-700 dark:text-slate-300", children: "మీరు తీవ్రమైన మానసిక ఆందోళనలో ఉన్నారా? ప్రభుత్వ ఉచిత జాతీయ హెల్ప్‌లైన్లను ఇప్పుడే సంప్రదించండి:" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-3 pt-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:14416", className: "px-4 py-2 bg-brand-primary text-white font-bold rounded-xl text-sm shadow hover:opacity-90 transition", children: "📞 Tele-MANAS: 14416 (24/7 తెలుగు)" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:112", className: "px-4 py-2 bg-rose-600 text-white font-bold rounded-xl text-sm shadow hover:bg-rose-700 transition", children: "🚨 జాతీయ ఎమర్జెన్సీ: 112" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:1098", className: "px-4 py-2 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow hover:bg-indigo-700 transition", children: "🛡️ చైల్డ్‌లైన్: 1098" })
+        ] })
+      ] })
+    ] })
   }
 ];
 function getBlogArticleBySlug(slug) {
@@ -971,7 +1081,7 @@ const Route$4 = createFileRoute("/child-protection")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./index-BJfqIRvK.mjs");
+const $$splitComponentImporter$1 = () => import("./index-BmylapIZ.mjs");
 const Route$3 = createFileRoute("/")({
   head: () => ({
     meta: [{
@@ -1494,7 +1604,7 @@ const stories = [
     ] })
   }
 ];
-const $$splitComponentImporter = () => import("../_storyId-BFrC0bZg.mjs");
+const $$splitComponentImporter = () => import("../_storyId-xvaK6pDV.mjs");
 const Route$1 = createFileRoute("/stories/$storyId")({
   loader: ({
     params
