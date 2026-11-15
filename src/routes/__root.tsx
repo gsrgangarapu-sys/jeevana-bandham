@@ -89,6 +89,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { name: "author", content: "Jeevana Bandham" },
       { name: "robots", content: "index, follow" },
+      { name: "google-site-verification", content: "tyN2SPxSc4HWKXn2MXZbV5MKnfjIeaUFCAtpBthVep4" },
       { property: "og:title", content: "జీవన బంధం — జీవితాన్ని కాపాడే కుటుంబ సహాయ వేదిక" },
       {
         property: "og:description",

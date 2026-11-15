@@ -96,6 +96,7 @@ const Route$9 = createRootRouteWithContext()({
       },
       { name: "author", content: "Jeevana Bandham" },
       { name: "robots", content: "index, follow" },
+      { name: "google-site-verification", content: "tyN2SPxSc4HWKXn2MXZbV5MKnfjIeaUFCAtpBthVep4" },
       { property: "og:title", content: "జీవన బంధం — జీవితాన్ని కాపాడే కుటుంబ సహాయ వేదిక" },
       {
         property: "og:description",
@@ -1191,7 +1192,7 @@ const Route$4 = createFileRoute("/child-protection")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./index-DFLPW8dF.mjs");
+const $$splitComponentImporter$1 = () => import("./index-B0lbKe86.mjs");
 const Route$3 = createFileRoute("/")({
   head: () => ({
     meta: [{
@@ -1714,7 +1715,7 @@ const stories = [
     ] })
   }
 ];
-const $$splitComponentImporter = () => import("../_storyId-CUMtthrt.mjs");
+const $$splitComponentImporter = () => import("../_storyId-Cl0TYV68.mjs");
 const Route$1 = createFileRoute("/stories/$storyId")({
   loader: ({
     params
