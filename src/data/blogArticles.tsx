@@ -925,6 +925,161 @@ export const ALL_BLOG_ARTICLES: BlogArticle[] = [
       </div>
     )
   },
+
+  // నిరాశ, తీవ్రమైన ఒత్తిడి మరియు ఆత్మహత్య ఆలోచనల నుంచి ఎలా బయటపడాలి? — ఆశల బాట
+  {
+    id: "how-to-overcome-depression-and-suicidal-thoughts",
+    slug: "how-to-overcome-depression-and-suicidal-thoughts",
+    title: "నిరాశ, తీవ్రమైన ఒత్తిడి మరియు ఆత్మహత్య ఆలోచనల నుంచి ఎలా బయటపడాలి? — ఆశల బాట",
+    titleEn: "How to Overcome Severe Depression and Suicidal Thoughts: Path to Hope and Healing",
+    subtitle: "మీ ప్రాణం వెలకట్టలేనిది. ఎంతటి క్లిష్ట పరిస్థితుల్లోనైనా ఒక్క క్షణం ఆగి సహాయం కోరితే జీవితాన్ని మళ్లీ అందంగా నిర్మించుకోవచ్చు.",
+    category: "మానసిక ఆరోగ్యం (Mental Health)",
+    status: "published",
+    readTime: "9 నిమిషాలు",
+    date: "నవంబర్ 2026",
+    updatedDate: "2026-11-15",
+    author: {
+      name: "జీవన బంధం ఎడిటోరియల్ & కౌన్సెలింగ్ బోర్డు",
+      role: "సీనియర్ ఫ్యామిలీ కౌన్సెలర్"
+    },
+    primaryKeyword: "ఆత్మహత్య నివారణ తెలుగు హెల్ప్‌లైన్",
+    secondaryKeywords: ["tele-manas 14416 telugu","depression recovery telugu","మానసిక ఒత్తిడి నివారణ","suicide prevention 112","vandrevala foundation"],
+    searchIntent: "Compassionate Counseling & Practical Guidance",
+    tags: ["కుటుంబం","కౌన్సెలింగ్","Mental Health","మానసిక ఆరోగ్యం","జీవన బంధం"],
+    excerpt: "తాత్కాలిక సమస్యకు శాశ్వత ముగింపు ఇవ్వకండి. ఉచిత 24/7 టెలి-మానస్ 14416 మరియు జాతీయ ఎమర్జెన్సీ 112 ద్వారా మానసిక తోడ్పాటు పొందండి.",
+    metaDescription: "నిరాశ, డిప్రెషన్ మరియు ఆత్మహత్య ఆలోచనలను జయించడానికి మార్గాలు. టెలి-మానస్ 14416 ఉచిత టోల్‌ఫ్రీ తెలుగు హెల్ప్‌లైన్ వివరాలు.",
+    canonicalUrl: "https://www.jeevanabandham.online/blog/how-to-overcome-depression-and-suicidal-thoughts",
+    targetToolLink: "/support",
+    targetToolName: "24/7 ఎమర్జెన్సీ హెల్ప్‌లైన్లు",
+    tableOfContents: [{"id":"stop-and-breathe","title":"1. ఒక్క నిమిషం ఆగండి: మీ ప్రాణం ఎంతో విలువైనది"},{"id":"depression-is-curable","title":"2. డిప్రెషన్ అనేది ఒక రుగ్మత మాత్రమే, బలహీనత కాదు"},{"id":"reach-out-now","title":"3. వెంటనే హెల్ప్‌లైన్‌ను సంప్రదించండి (Tele-MANAS: 14416)"},{"id":"who-waits-for-you","title":"4. మీ కుటుంబం మరియు పిల్లల భవిష్యత్తును తలచుకోండి"},{"id":"daily-steps-to-heal","title":"5. మానసిక పునరుజ్జీవనానికి రోజువారీ సాధనలు"}],
+    faqs: [{"question":"ఆత్మహత్య ఆలోచనలు వస్తున్నప్పుడు ఎవరితో మాట్లాడాలి?","answer":"వెంటనే టెలి-మానస్ 14416 కు లేదా వండ్రేవాలా ఫౌండేషన్ 9999 666 555 కు కాల్ చేయండి. పూర్తిగా ఉచితంగా, మీ వివరాలను గోప్యంగా ఉంచి 24 గంటలు మాట్లాడతారు."}],
+    relatedSlugs: ["pre-marriage-10-things-to-know", "7-ways-to-reduce-husband-wife-conflicts"],
+    content: (
+      <div className="space-y-6 text-slate-800 dark:text-slate-200 leading-relaxed">
+        <div className="p-6 rounded-3xl bg-amber-500/10 border border-amber-500/30 text-amber-950 dark:text-amber-100 space-y-2">
+          <div className="flex items-center gap-2 font-bold text-lg text-amber-800 dark:text-amber-300">
+            <Heart className="h-5 w-5 text-amber-600 fill-current" />
+            <span>జీవన బంధం మార్గదర్శక సందేశం</span>
+          </div>
+          <p className="text-sm leading-relaxed">
+            ప్రతి బంధంలోనూ సమస్యలు సహజం. వాటిని విమర్శలతో కాకుండా, ప్రేమతో, శాస్త్రీయ కౌన్సెలింగ్ విధానాలతో పరిష్కరించుకోవచ్చు. మీరు లేదా మీ ప్రియమైనవారు బాధపడుతుంటే వెంటనే సహాయం పొందండి.
+          </p>
+        </div>
+
+        
+        <h2 id="stop-and-breathe" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>1. ఒక్క నిమిషం ఆగండి: మీ ప్రాణం ఎంతో విలువైనది</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <h2 id="depression-is-curable" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>2. డిప్రెషన్ అనేది ఒక రుగ్మత మాత్రమే, బలహీనత కాదు</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <h2 id="reach-out-now" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>3. వెంటనే హెల్ప్‌లైన్‌ను సంప్రదించండి (Tele-MANAS: 14416)</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <h2 id="who-waits-for-you" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>4. మీ కుటుంబం మరియు పిల్లల భవిష్యత్తును తలచుకోండి</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <h2 id="daily-steps-to-heal" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>5. మానసిక పునరుజ్జీవనానికి రోజువారీ సాధనలు</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <div className="mt-8 p-6 rounded-3xl bg-brand-primary/10 border border-brand-primary/30 space-y-3">
+          <h3 className="text-xl font-bold text-brand-primary flex items-center gap-2">
+            <Phone className="h-5 w-5" />
+            <span>తక్షణ అత్యవసర సహాయం & కౌన్సెలింగ్</span>
+          </h3>
+          <p className="text-sm text-slate-700 dark:text-slate-300">
+            మీరు తీవ్రమైన మానసిక ఆందోళనలో ఉన్నారా? ప్రభుత్వ ఉచిత జాతీయ హెల్ప్‌లైన్లను ఇప్పుడే సంప్రదించండి:
+          </p>
+          <div className="flex flex-wrap gap-3 pt-2">
+            <a href="tel:14416" className="px-4 py-2 bg-brand-primary text-white font-bold rounded-xl text-sm shadow hover:opacity-90 transition">
+              📞 Tele-MANAS: 14416 (24/7 తెలుగు)
+            </a>
+            <a href="tel:112" className="px-4 py-2 bg-rose-600 text-white font-bold rounded-xl text-sm shadow hover:bg-rose-700 transition">
+              🚨 జాతీయ ఎమర్జెన్సీ: 112
+            </a>
+            <a href="tel:1098" className="px-4 py-2 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow hover:bg-indigo-700 transition">
+              🛡️ చైల్డ్‌లైన్: 1098
+            </a>
+          </div>
+        </div>
+      </div>
+    )
+  },
 ];
 
 export function getAllBlogArticles(): BlogArticle[] {
