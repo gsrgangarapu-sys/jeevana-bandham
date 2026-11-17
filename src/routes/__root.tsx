@@ -72,6 +72,63 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   );
 }
 
+const siteStructuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.jeevanabandham.online/#website",
+      "name": "జీవన బంధం",
+      "alternateName": ["Jeevana Bandham", "JeevanaBandham Online", "Telugu Family Support"],
+      "url": "https://www.jeevanabandham.online/",
+      "description": "జీవితాన్ని కాపాడే తెలుగు కుటుంబ సహాయ వేదిక. SOS సహాయం, పిల్లల రక్షణ, మానసిక ఆరోగ్యం మరియు కౌన్సెలింగ్.",
+      "inLanguage": "te",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.jeevanabandham.online/blog?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.jeevanabandham.online/#organization",
+      "name": "Jeevana Bandham",
+      "alternateName": "జీవన బంధం",
+      "url": "https://www.jeevanabandham.online/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://i.ibb.co/nNy5WSYw/home.png",
+        "width": "512",
+        "height": "512"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-14416",
+          "contactType": "Tele-MANAS Mental Health Helpline",
+          "areaServed": "IN",
+          "availableLanguage": ["te", "en", "hi"]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-112",
+          "contactType": "Emergency",
+          "areaServed": "IN"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-1098",
+          "contactType": "Childline Support",
+          "areaServed": "IN"
+        }
+      ]
+    }
+  ]
+};
+
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
     meta: [
@@ -122,9 +179,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="te">
       <head>
         <HeadContent />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteStructuredData) }}
+        />
       </head>
       <body>
         {children}

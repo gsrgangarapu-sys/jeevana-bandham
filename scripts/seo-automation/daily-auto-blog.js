@@ -19,6 +19,7 @@ import path from 'path';
 import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
 import { sendGoogleChatNotification } from './notify-chat.js';
+import { submitIndexNow } from '../indexnow.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -410,7 +411,7 @@ export async function runDailyAutoBlog() {
     execSync("npm run build", { cwd: REPO_ROOT, stdio: "inherit" });
 
     console.log("Staging git changes including prebuilt Vercel output...");
-    execSync("git add src/data/blogArticles.tsx public/sitemap.xml public/llms.txt .vercel/output .gitignore", { cwd: REPO_ROOT, stdio: "inherit" });
+    execSync("git add src/data/blogArticles.tsx public/sitemap.xml public/llms.txt public/c7a8b9e0f1d24c5b8a9e0f1d2c3b4a5d.txt scripts/indexnow.js .vercel/output .gitignore", { cwd: REPO_ROOT, stdio: "inherit" });
     const commitMsg = `feat(blog): publish daily Telugu SEO guide - ${selectedTopic.titleEn} [${selectedTopic.slug}]`;
     execSync(`git commit -m "${commitMsg}"`, { cwd: REPO_ROOT, stdio: "inherit" });
     console.log("Pushing to GitHub remote main...");
@@ -428,7 +429,15 @@ export async function runDailyAutoBlog() {
     console.warn(`Build or Git commit/push encountered a step: ${gitErr.message}`);
   }
 
-  // 5. Send Google Chat Notification
+  // 5. Submit to Search Engine Indexers via IndexNow
+  try {
+    console.log("Submitting new post to search engines via IndexNow...");
+    await submitIndexNow([postUrl, "https://www.jeevanabandham.online/sitemap.xml"]);
+  } catch (inErr) {
+    console.warn("IndexNow submission warning:", inErr.message);
+  }
+
+  // 6. Send Google Chat Notification
   const postUrl = `https://www.jeevanabandham.online/blog/${selectedTopic.slug}`;
   await sendGoogleChatNotification({
     title: `కొత్త తెలుగు ఆర్టికల్ ప్రచురితమైంది: ${selectedTopic.title.slice(0, 45)}...`,

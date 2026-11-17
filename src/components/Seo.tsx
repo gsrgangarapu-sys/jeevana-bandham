@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 interface SeoProps {
   title: string;
   description: string;
@@ -24,66 +22,83 @@ export function Seo({
   type = "website",
   publishedTime,
   modifiedTime,
-  author = "Jeevana Bandham Editorial Team",
+  author = "జీవన బంధం సంపాదకీయ బృందం",
   breadcrumbs,
   faqs,
   schemaType = "WebSite",
 }: SeoProps) {
-  useEffect(() => {
-    // Generate BreadcrumbList Schema
-    if (breadcrumbs && breadcrumbs.length > 0) {
-      const breadcrumbSchema = {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        itemListElement: breadcrumbs.map((crumb, index) => ({
-          "@type": "ListItem",
-          position: index + 1,
-          name: crumb.name,
-          item: crumb.url,
-        })),
-      };
+  const schemas: any[] = [];
 
-      const script = document.createElement("script");
-      script.type = "application/ld+json";
-      script.text = JSON.stringify(breadcrumbSchema);
-      script.id = "breadcrumb-schema";
-      document.head.appendChild(script);
+  // 1. BreadcrumbList Schema for Google rich snippets
+  if (breadcrumbs && breadcrumbs.length > 0) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: breadcrumbs.map((crumb, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: crumb.name,
+        item: crumb.url,
+      })),
+    });
+  }
 
-      return () => {
-        const el = document.getElementById("breadcrumb-schema");
-        if (el) el.remove();
-      };
-    }
-  }, [breadcrumbs]);
+  // 2. FAQPage Schema for interactive SERP accordions
+  if (faqs && faqs.length > 0) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: faq.answer,
+        },
+      })),
+    });
+  }
 
-  useEffect(() => {
-    // Generate FAQ Schema
-    if (faqs && faqs.length > 0) {
-      const faqSchema = {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: faqs.map((faq) => ({
-          "@type": "Question",
-          name: faq.question,
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: faq.answer,
-          },
-        })),
-      };
+  // 3. Article Schema for Google Discover and Top Stories
+  if (type === "article") {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": url,
+      },
+      headline: title.replace(/ \| జీవన బంధం.*$/, ""),
+      description,
+      image,
+      author: {
+        "@type": "Organization",
+        name: author,
+        url: "https://www.jeevanabandham.online/",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "జీవన బంధం",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://i.ibb.co/nNy5WSYw/home.png",
+        },
+      },
+      datePublished: publishedTime || "2026-11-15",
+      dateModified: modifiedTime || publishedTime || "2026-11-17",
+      inLanguage: "te",
+    });
+  }
 
-      const script = document.createElement("script");
-      script.type = "application/ld+json";
-      script.text = JSON.stringify(faqSchema);
-      script.id = "faq-schema";
-      document.head.appendChild(script);
-
-      return () => {
-        const el = document.getElementById("faq-schema");
-        if (el) el.remove();
-      };
-    }
-  }, [faqs]);
-
-  return null;
+  return (
+    <>
+      {schemas.map((schemaObj, index) => (
+        <script
+          key={index}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaObj) }}
+        />
+      ))}
+    </>
+  );
 }

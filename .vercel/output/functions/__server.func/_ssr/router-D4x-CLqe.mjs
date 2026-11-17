@@ -80,6 +80,62 @@ function ErrorComponent({ error, reset }) {
     ] })
   ] }) });
 }
+const siteStructuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.jeevanabandham.online/#website",
+      "name": "జీవన బంధం",
+      "alternateName": ["Jeevana Bandham", "JeevanaBandham Online", "Telugu Family Support"],
+      "url": "https://www.jeevanabandham.online/",
+      "description": "జీవితాన్ని కాపాడే తెలుగు కుటుంబ సహాయ వేదిక. SOS సహాయం, పిల్లల రక్షణ, మానసిక ఆరోగ్యం మరియు కౌన్సెలింగ్.",
+      "inLanguage": "te",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.jeevanabandham.online/blog?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.jeevanabandham.online/#organization",
+      "name": "Jeevana Bandham",
+      "alternateName": "జీవన బంధం",
+      "url": "https://www.jeevanabandham.online/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://i.ibb.co/nNy5WSYw/home.png",
+        "width": "512",
+        "height": "512"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-14416",
+          "contactType": "Tele-MANAS Mental Health Helpline",
+          "areaServed": "IN",
+          "availableLanguage": ["te", "en", "hi"]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-112",
+          "contactType": "Emergency",
+          "areaServed": "IN"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-1098",
+          "contactType": "Childline Support",
+          "areaServed": "IN"
+        }
+      ]
+    }
+  ]
+};
 const Route$9 = createRootRouteWithContext()({
   head: () => ({
     meta: [
@@ -126,8 +182,17 @@ const Route$9 = createRootRouteWithContext()({
   errorComponent: ErrorComponent
 });
 function RootShell({ children }) {
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs("html", { lang: "en", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("head", { children: /* @__PURE__ */ jsxRuntimeExports.jsx(HeadContent, {}) }),
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("html", { lang: "te", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("head", { children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(HeadContent, {}),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        "script",
+        {
+          type: "application/ld+json",
+          dangerouslySetInnerHTML: { __html: JSON.stringify(siteStructuredData) }
+        }
+      )
+    ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("body", { children: [
       children,
       /* @__PURE__ */ jsxRuntimeExports.jsx(Scripts, {})
@@ -1192,7 +1257,7 @@ const Route$4 = createFileRoute("/child-protection")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./index-B0lbKe86.mjs");
+const $$splitComponentImporter$1 = () => import("./index-DH6XTH3B.mjs");
 const Route$3 = createFileRoute("/")({
   head: () => ({
     meta: [{
@@ -1234,60 +1299,75 @@ function Seo({
   type = "website",
   publishedTime,
   modifiedTime,
-  author = "Jeevana Bandham Editorial Team",
+  author = "జీవన బంధం సంపాదకీయ బృందం",
   breadcrumbs,
   faqs,
   schemaType = "WebSite"
 }) {
-  reactExports.useEffect(() => {
-    if (breadcrumbs && breadcrumbs.length > 0) {
-      const breadcrumbSchema = {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        itemListElement: breadcrumbs.map((crumb, index) => ({
-          "@type": "ListItem",
-          position: index + 1,
-          name: crumb.name,
-          item: crumb.url
-        }))
-      };
-      const script = document.createElement("script");
-      script.type = "application/ld+json";
-      script.text = JSON.stringify(breadcrumbSchema);
-      script.id = "breadcrumb-schema";
-      document.head.appendChild(script);
-      return () => {
-        const el = document.getElementById("breadcrumb-schema");
-        if (el) el.remove();
-      };
-    }
-  }, [breadcrumbs]);
-  reactExports.useEffect(() => {
-    if (faqs && faqs.length > 0) {
-      const faqSchema = {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: faqs.map((faq) => ({
-          "@type": "Question",
-          name: faq.question,
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: faq.answer
-          }
-        }))
-      };
-      const script = document.createElement("script");
-      script.type = "application/ld+json";
-      script.text = JSON.stringify(faqSchema);
-      script.id = "faq-schema";
-      document.head.appendChild(script);
-      return () => {
-        const el = document.getElementById("faq-schema");
-        if (el) el.remove();
-      };
-    }
-  }, [faqs]);
-  return null;
+  const schemas = [];
+  if (breadcrumbs && breadcrumbs.length > 0) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: breadcrumbs.map((crumb, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: crumb.name,
+        item: crumb.url
+      }))
+    });
+  }
+  if (faqs && faqs.length > 0) {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: faq.answer
+        }
+      }))
+    });
+  }
+  if (type === "article") {
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "Article",
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": url
+      },
+      headline: title.replace(/ \| జీవన బంధం.*$/, ""),
+      description,
+      image,
+      author: {
+        "@type": "Organization",
+        name: author,
+        url: "https://www.jeevanabandham.online/"
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "జీవన బంధం",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://i.ibb.co/nNy5WSYw/home.png"
+        }
+      },
+      datePublished: publishedTime || "2026-11-15",
+      dateModified: modifiedTime || publishedTime || "2026-11-17",
+      inLanguage: "te"
+    });
+  }
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: schemas.map((schemaObj, index) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "script",
+    {
+      type: "application/ld+json",
+      dangerouslySetInnerHTML: { __html: JSON.stringify(schemaObj) }
+    },
+    index
+  )) });
 }
 const Route$2 = createFileRoute("/blog/")({
   head: () => ({
@@ -1715,7 +1795,7 @@ const stories = [
     ] })
   }
 ];
-const $$splitComponentImporter = () => import("../_storyId-Cl0TYV68.mjs");
+const $$splitComponentImporter = () => import("../_storyId-CHVB51yZ.mjs");
 const Route$1 = createFileRoute("/stories/$storyId")({
   loader: ({
     params
