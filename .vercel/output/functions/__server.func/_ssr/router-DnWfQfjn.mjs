@@ -1142,6 +1142,116 @@ const ALL_BLOG_ARTICLES = [
         ] })
       ] })
     ] })
+  },
+  // పిల్లల్లో మొబైల్ అడిక్షన్ మరియు సైబర్ ప్రమాదాలు: తల్లిదండ్రుల మార్గదర్శక సూత్రాలు
+  {
+    id: "protecting-children-from-mobile-addiction-and-cyber-threats",
+    slug: "protecting-children-from-mobile-addiction-and-cyber-threats",
+    title: "పిల్లల్లో మొబైల్ అడిక్షన్ మరియు సైబర్ ప్రమాదాలు: తల్లిదండ్రుల మార్గదర్శక సూత్రాలు",
+    titleEn: "Protecting Children from Smartphone Addiction and Online Cyber Risks: Parents Guide",
+    subtitle: "స్మార్ట్‌ఫోన్లు పిల్లల చదువు, మానసిక వికాసం మరియు శారీరక ఆరోగ్యంపై చూపే ప్రభావాలను ఎలా నియంత్రించాలి?",
+    category: "పిల్లల భద్రత (Child Safety)",
+    status: "published",
+    readTime: "7 నిమిషాలు",
+    date: "నవంబర్ 2026",
+    updatedDate: "2026-11-18",
+    author: {
+      name: "జీవన బంధం ఎడిటోరియల్ & కౌన్సెలింగ్ బోర్డు",
+      role: "సీనియర్ ఫ్యామిలీ కౌన్సెలర్"
+    },
+    primaryKeyword: "పిల్లల్లో మొబైల్ అడిక్షన్ నివారణ",
+    secondaryKeywords: ["child screen time limits telugu", "సైబర్ బెదిరింపులు నివారణ", "childline 1098", "పిల్లల మానసిక ఆరోగ్యం"],
+    searchIntent: "Compassionate Counseling & Practical Guidance",
+    tags: ["కుటుంబం", "కౌన్సెలింగ్", "Child Protection", "మానసిక ఆరోగ్యం", "జీవన బంధం"],
+    excerpt: "పిల్లలను తిట్టకుండా, బలవంతం చేయకుండా స్మార్ట్‌ఫోన్ వ్యసనం నుంచి ఎలా కాపాడుకోవచ్చో ప్రాక్టికల్ సూత్రాల ద్వారా తెలుసుకోండి.",
+    metaDescription: "పిల్లల్లో మొబైల్ అడిక్షన్ నియంత్రణకు తల్లిదండ్రుల చిట్కాలు. సైబర్ బెదిరింపుల నుంచి రక్షణ, స్క్రీన్ టైమ్ పరిమితులు మరియు చైల్డ్‌లైన్ 1098 వివరాలు.",
+    canonicalUrl: "https://www.jeevanabandham.online/blog/protecting-children-from-mobile-addiction-and-cyber-threats",
+    targetToolLink: "/child-protection",
+    targetToolName: "పిల్లల రక్షణ సాధనాలు & గైడ్",
+    tableOfContents: [{ "id": "recognizing-addiction", "title": "1. పిల్లల్లో మొబైల్ వ్యసన లక్షణాలను గుర్తించడం" }, { "id": "setting-screen-limits", "title": "2. ఇంట్లో డిజిటల్ నియమాలు (No-Phone Zones) అమలు చేయడం" }, { "id": "alternative-activities", "title": "3. ఆటలు, పుస్తకాలు మరియు కుటుంబ చర్చల ప్రాధాన్యత" }, { "id": "online-safety-pocso", "title": "4. సైబర్ భద్రత మరియు అపరిచిత వ్యక్తుల ప్రమాదాలు" }, { "id": "parents-as-role-models", "title": "5. తల్లిదండ్రులే మొదట ఆదర్శంగా మారడం" }],
+    faqs: [{ "question": "పిల్లల నుంచి ఫోన్ లాక్కుంటే కోపం ప్రదర్శిస్తున్నారు, ఏం చేయాలి?", "answer": "అకస్మాత్తుగా లాక్కోవడం కాకుండా ముందుగానే వారితో మాట్లాడి రోజుకు 1 గంట మాత్రమే సమయం కేటాయించండి. వారు ఫోన్ వదిలినప్పుడు ప్రశంసించండి మరియు ప్రత్యామ్నాయ క్రీడలను ప్రోత్సహించండి." }],
+    relatedSlugs: ["pre-marriage-10-things-to-know", "7-ways-to-reduce-husband-wife-conflicts"],
+    content: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6 text-slate-800 dark:text-slate-200 leading-relaxed", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6 rounded-3xl bg-amber-500/10 border border-amber-500/30 text-amber-950 dark:text-amber-100 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 font-bold text-lg text-amber-800 dark:text-amber-300", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Heart, { className: "h-5 w-5 text-amber-600 fill-current" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "జీవన బంధం మార్గదర్శక సందేశం" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm leading-relaxed", children: "ప్రతి బంధంలోనూ సమస్యలు సహజం. వాటిని విమర్శలతో కాకుండా, ప్రేమతో, శాస్త్రీయ కౌన్సెలింగ్ విధానాలతో పరిష్కరించుకోవచ్చు. మీరు లేదా మీ ప్రియమైనవారు బాధపడుతుంటే వెంటనే సహాయం పొందండి." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "recognizing-addiction", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "1. పిల్లల్లో మొబైల్ వ్యసన లక్షణాలను గుర్తించడం" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఆచరణాత్మక కార్యాచరణ చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "setting-screen-limits", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "2. ఇంట్లో డిజిటల్ నియమాలు (No-Phone Zones) అమలు చేయడం" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఆచరణాత్మక కార్యాచరణ చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "alternative-activities", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "3. ఆటలు, పుస్తకాలు మరియు కుటుంబ చర్చల ప్రాధాన్యత" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఆచరణాత్మక కార్యాచరణ చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "online-safety-pocso", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "4. సైబర్ భద్రత మరియు అపరిచిత వ్యక్తుల ప్రమాదాలు" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఆచరణాత్మక కార్యాచరణ చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "parents-as-role-models", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "5. తల్లిదండ్రులే మొదట ఆదర్శంగా మారడం" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఆచరణాత్మక కార్యాచరణ చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-8 p-6 rounded-3xl bg-brand-primary/10 border border-brand-primary/30 space-y-3", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-bold text-brand-primary flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "h-5 w-5" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "తక్షణ అత్యవసర సహాయం & కౌన్సెలింగ్" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-700 dark:text-slate-300", children: "మీరు తీవ్రమైన మానసిక ఆందోళనలో ఉన్నారా? ప్రభుత్వ ఉచిత జాతీయ హెల్ప్‌లైన్లను ఇప్పుడే సంప్రదించండి:" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-3 pt-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:14416", className: "px-4 py-2 bg-brand-primary text-white font-bold rounded-xl text-sm shadow hover:opacity-90 transition", children: "📞 Tele-MANAS: 14416 (24/7 తెలుగు)" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:112", className: "px-4 py-2 bg-rose-600 text-white font-bold rounded-xl text-sm shadow hover:bg-rose-700 transition", children: "🚨 జాతీయ ఎమర్జెన్సీ: 112" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:1098", className: "px-4 py-2 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow hover:bg-indigo-700 transition", children: "🛡️ చైల్డ్‌లైన్: 1098" })
+        ] })
+      ] })
+    ] })
   }
 ];
 function getBlogArticleBySlug(slug) {
@@ -1257,7 +1367,7 @@ const Route$4 = createFileRoute("/child-protection")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./index-DH6XTH3B.mjs");
+const $$splitComponentImporter$1 = () => import("./index-tpYuvtA_.mjs");
 const Route$3 = createFileRoute("/")({
   head: () => ({
     meta: [{
@@ -1795,7 +1905,7 @@ const stories = [
     ] })
   }
 ];
-const $$splitComponentImporter = () => import("../_storyId-CHVB51yZ.mjs");
+const $$splitComponentImporter = () => import("../_storyId-oyAQQ3YM.mjs");
 const Route$1 = createFileRoute("/stories/$storyId")({
   loader: ({
     params
