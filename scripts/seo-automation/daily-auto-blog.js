@@ -429,6 +429,8 @@ export async function runDailyAutoBlog() {
     console.warn(`Build or Git commit/push encountered a step: ${gitErr.message}`);
   }
 
+  const postUrl = `https://www.jeevanabandham.online/blog/${selectedTopic.slug}`;
+
   // 5. Submit to Search Engine Indexers via IndexNow
   try {
     console.log("Submitting new post to search engines via IndexNow...");
@@ -438,7 +440,6 @@ export async function runDailyAutoBlog() {
   }
 
   // 6. Send Google Chat Notification
-  const postUrl = `https://www.jeevanabandham.online/blog/${selectedTopic.slug}`;
   await sendGoogleChatNotification({
     title: `కొత్త తెలుగు ఆర్టికల్ ప్రచురితమైంది: ${selectedTopic.title.slice(0, 45)}...`,
     subtitle: `జీవన బంధం రోజువారీ SEO బ్లాగ్ ఆటోమేషన్ (${today})`,
