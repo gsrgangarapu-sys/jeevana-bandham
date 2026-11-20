@@ -1390,6 +1390,161 @@ export const ALL_BLOG_ARTICLES: BlogArticle[] = [
       </div>
     )
   },
+
+  // విడాకుల సమయంలో పిల్లల సంరక్షణ (Custody): గొడవలు లేకుండా నిర్ణయం తీసుకోవడం ఎలా?
+  {
+    id: "how-to-talk-about-child-custody-amicably",
+    slug: "how-to-talk-about-child-custody-amicably",
+    title: "విడాకుల సమయంలో పిల్లల సంరక్షణ (Custody): గొడవలు లేకుండా నిర్ణయం తీసుకోవడం ఎలా?",
+    titleEn: "How to Decide Child Custody Amicably During Divorce: Child-First Approach",
+    subtitle: "తల్లిదండ్రుల మధ్య బంధం ముగిసినా బిడ్డకు ఇద్దరి ప్రేమా అవసరమే. కోర్టు వివాదాల వల్ల పిల్లలు మానసికంగా నలిగిపోకుండా చూసుకోవడం ఎలా?",
+    category: "పిల్లల భద్రత (Child Safety)",
+    status: "published",
+    readTime: "8 నిమిషాలు",
+    date: "నవంబర్ 2026",
+    updatedDate: "2026-11-20",
+    author: {
+      name: "జీవన బంధం ఎడిటోరియల్ & కౌన్సెలింగ్ బోర్డు",
+      role: "సీనియర్ ఫ్యామిలీ కౌన్సెలర్"
+    },
+    primaryKeyword: "పిల్లల కస్టడీ చట్టపరమైన సలహా",
+    secondaryKeywords: ["child custody law telugu","విడాకుల్లో పిల్లల రక్షణ","కో-పేరెంటింగ్ పద్ధతులు","child rights telugu"],
+    searchIntent: "Compassionate Counseling & Practical Guidance",
+    tags: ["కుటుంబం","కౌన్సెలింగ్","Child Protection","మానసిక ఆరోగ్యం","జీవన బంధం"],
+    excerpt: "పిల్లలను పగ తీర్చుకునే సాధనంగా వాడకండి. సహ-తల్లిదండ్రులుగా (Co-Parenting) వారి ఉన్నత భవిష్యత్తు కోసం ఎలా ప్లాన్ చేయాలి?",
+    metaDescription: "విడాకుల సమయంలో పిల్లల కస్టడీని సామరస్యంగా ఎలా పరిష్కరించుకోవాలి? లీగల్ గైడెన్స్, చైల్డ్ ప్రొటెక్షన్ మరియు పిల్లల భద్రతా చిట్కాలు.",
+    canonicalUrl: "https://www.jeevanabandham.online/blog/how-to-talk-about-child-custody-amicably",
+    targetToolLink: "/child-protection",
+    targetToolName: "పిల్లల రక్షణ & లీగల్ కౌన్సెలింగ్ గైడ్",
+    tableOfContents: [{"id":"child-welfare-first","title":"1. అన్నిటికంటే బిడ్డ సంక్షేమమే అత్యున్నతం"},{"id":"avoid-parental-alienation","title":"2. ఒకరిపై ఒకరు విషం చిమ్మడం ఆపండి"},{"id":"legal-guidance-importance","title":"3. అర్హతగల న్యాయవాది వద్ద సరైన లీగల్ గైడెన్స్"},{"id":"shared-parenting-plan","title":"4. సెలవులు, ఖర్చులు మరియు చదువులపై స్పష్టమైన ప్రణాళిక"},{"id":"emotional-checkins","title":"5. బిడ్డ మానసిక స్థితిని ఎప్పటికప్పుడు గమనించడం"}],
+    faqs: [{"question":"కోర్టు కస్టడీ నిర్ణయంలో బిడ్డ అభిప్రాయాన్ని పరిగణనలోకి తీసుకుంటారా?","answer":"అవును, పిల్లలకు తగినంత వయస్సు (సాధారణంగా 9 ఏళ్లు పైబడినప్పుడు) ఉన్నప్పుడు న్యాయస్థానం వారి భావాలను, శ్రేయస్సును అత్యంత ప్రాధాన్యతతో పరిశీలిస్తుంది."}],
+    relatedSlugs: ["pre-marriage-10-things-to-know", "7-ways-to-reduce-husband-wife-conflicts"],
+    content: (
+      <div className="space-y-6 text-slate-800 dark:text-slate-200 leading-relaxed">
+        <div className="p-6 rounded-3xl bg-amber-500/10 border border-amber-500/30 text-amber-950 dark:text-amber-100 space-y-2">
+          <div className="flex items-center gap-2 font-bold text-lg text-amber-800 dark:text-amber-300">
+            <Heart className="h-5 w-5 text-amber-600 fill-current" />
+            <span>జీవన బంధం మార్గదర్శక సందేశం</span>
+          </div>
+          <p className="text-sm leading-relaxed">
+            ప్రతి బంధంలోనూ సమస్యలు సహజం. వాటిని విమర్శలతో కాకుండా, ప్రేమతో, శాస్త్రీయ కౌన్సెలింగ్ విధానాలతో పరిష్కరించుకోవచ్చు. మీరు లేదా మీ ప్రియమైనవారు బాధపడుతుంటే వెంటనే సహాయం పొందండి.
+          </p>
+        </div>
+
+        
+        <h2 id="child-welfare-first" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>1. అన్నిటికంటే బిడ్డ సంక్షేమమే అత్యున్నతం</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <h2 id="avoid-parental-alienation" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>2. ఒకరిపై ఒకరు విషం చిమ్మడం ఆపండి</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <h2 id="legal-guidance-importance" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>3. అర్హతగల న్యాయవాది వద్ద సరైన లీగల్ గైడెన్స్</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <h2 id="shared-parenting-plan" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>4. సెలవులు, ఖర్చులు మరియు చదువులపై స్పష్టమైన ప్రణాళిక</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <h2 id="emotional-checkins" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>5. బిడ్డ మానసిక స్థితిని ఎప్పటికప్పుడు గమనించడం</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <div className="mt-8 p-6 rounded-3xl bg-brand-primary/10 border border-brand-primary/30 space-y-3">
+          <h3 className="text-xl font-bold text-brand-primary flex items-center gap-2">
+            <Phone className="h-5 w-5" />
+            <span>తక్షణ అత్యవసర సహాయం & కౌన్సెలింగ్</span>
+          </h3>
+          <p className="text-sm text-slate-700 dark:text-slate-300">
+            మీరు తీవ్రమైన మానసిక ఆందోళనలో ఉన్నారా? ప్రభుత్వ ఉచిత జాతీయ హెల్ప్‌లైన్లను ఇప్పుడే సంప్రదించండి:
+          </p>
+          <div className="flex flex-wrap gap-3 pt-2">
+            <a href="tel:14416" className="px-4 py-2 bg-brand-primary text-white font-bold rounded-xl text-sm shadow hover:opacity-90 transition">
+              📞 Tele-MANAS: 14416 (24/7 తెలుగు)
+            </a>
+            <a href="tel:112" className="px-4 py-2 bg-rose-600 text-white font-bold rounded-xl text-sm shadow hover:bg-rose-700 transition">
+              🚨 జాతీయ ఎమర్జెన్సీ: 112
+            </a>
+            <a href="tel:1098" className="px-4 py-2 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow hover:bg-indigo-700 transition">
+              🛡️ చైల్డ్‌లైన్: 1098
+            </a>
+          </div>
+        </div>
+      </div>
+    )
+  },
 ];
 
 export function getAllBlogArticles(): BlogArticle[] {
