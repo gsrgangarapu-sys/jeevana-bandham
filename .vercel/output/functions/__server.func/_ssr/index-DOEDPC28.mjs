@@ -1,6 +1,6 @@
 import { j as jsxRuntimeExports, r as reactExports } from "../_libs/react.mjs";
 import { L as Link } from "../_libs/tanstack__react-router.mjs";
-import { s as stories, A as ALL_BLOG_ARTICLES } from "./router-jSSIBFbs.mjs";
+import { s as stories, A as ALL_BLOG_ARTICLES } from "./router-BRvdm9bD.mjs";
 import { H as Heart, g as CircleAlert, P as Phone, n as ArrowRight, e as Sparkles, B as BookOpen, C as Clock, o as ShieldCheck, M as MessageCircleHeart } from "../_libs/lucide-react.mjs";
 import "../_libs/tanstack__router-core.mjs";
 import "../_libs/tanstack__history.mjs";

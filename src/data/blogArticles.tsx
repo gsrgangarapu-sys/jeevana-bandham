@@ -1545,6 +1545,161 @@ export const ALL_BLOG_ARTICLES: BlogArticle[] = [
       </div>
     )
   },
+
+  // వైవాహిక జీవితంలో ఎమోషనల్ అబ్యూస్ (మానసిక హింస): గుర్తించడం మరియు రక్షణ పొందడం ఎలా?
+  {
+    id: "healing-after-emotional-abuse-in-marriage",
+    slug: "healing-after-emotional-abuse-in-marriage",
+    title: "వైవాహిక జీవితంలో ఎమోషనల్ అబ్యూస్ (మానసిక హింస): గుర్తించడం మరియు రక్షణ పొందడం ఎలా?",
+    titleEn: "Recognizing and Healing from Emotional Abuse in Marriage: Signs & Help",
+    subtitle: "గాయాలు కనిపించకపోయినా మాటలు మనసును తీవ్రంగా గాయపరుస్తాయి. మానసిక హింస లక్షణాలు, మహిళా హెల్ప్‌లైన్ 181 మరియు రక్షణ మార్గాలు.",
+    category: "వివాహ సమస్యలు (Marriage)",
+    status: "published",
+    readTime: "9 నిమిషాలు",
+    date: "నవంబర్ 2026",
+    updatedDate: "2026-11-21",
+    author: {
+      name: "జీవన బంధం ఎడిటోరియల్ & కౌన్సెలింగ్ బోర్డు",
+      role: "సీనియర్ ఫ్యామిలీ కౌన్సెలర్"
+    },
+    primaryKeyword: "వైవాహిక మానసిక హింస నివారణ",
+    secondaryKeywords: ["emotional abuse signs telugu","women helpline 181 telugu","గృహహింస చట్టం అవగాహన","భార్య హక్కులు"],
+    searchIntent: "Compassionate Counseling & Practical Guidance",
+    tags: ["కుటుంబం","కౌన్సెలింగ్","Marriage","మానసిక ఆరోగ్యం","జీవన బంధం"],
+    excerpt: "నిరంతరం నిందించడం, అనుమానించడం, చులకనగా మాట్లాడటం ఎమోషనల్ అబ్యూస్ కిందకే వస్తాయి. భద్రత కోసం మీరు తీసుకోవాల్సిన చర్యలు.",
+    metaDescription: "వైవాహిక జీవితంలో మానసిక హింసను ఎలా గుర్తించాలి? మహిళా హెల్ప్‌లైన్ 181, లీగల్ హక్కులు మరియు రక్షణ పొందే మార్గాలు.",
+    canonicalUrl: "https://www.jeevanabandham.online/blog/healing-after-emotional-abuse-in-marriage",
+    targetToolLink: "/support",
+    targetToolName: "మహిళల భద్రత & లీగల్ సపోర్ట్",
+    tableOfContents: [{"id":"signs-of-emotional-abuse","title":"1. మానసిక హింస యొక్క ముఖ్యమైన 5 సంకేతాలు"},{"id":"gaslighting-explained","title":"2. గ్యాస్‌లైటింగ్ (Gaslighting): మీ తప్పేనని నమ్మించే కుట్ర"},{"id":"setting-boundaries","title":"3. సహించకుండా గట్టిగా మీ హద్దులను తెలియజేయడం"},{"id":"emergency-support-181","title":"4. మహిళా హెల్ప్‌లైన్ 181 మరియు ఉచిత కౌన్సెలింగ్"},{"id":"building-safety-plan","title":"5. అత్యవసర భద్రతా ప్రణాళిక (Safety Plan) రూపొందించుకోవడం"}],
+    faqs: [{"question":"శారీరక దాడి లేకపోయినా మానసిక వేధింపులపై ఫిర్యాదు చేయవచ్చా?","answer":"తప్పకుండా చేయవచ్చు. భారతీయ గృహహింస నిరోధక చట్టం కింద మానసిక, మాటల మరియు ఆర్థిక హింస కూడా చట్టవిరుద్ధం. మహిళా హెల్ప్‌లైన్ 181 కు ఉచితంగా కాల్ చేయవచ్చు."}],
+    relatedSlugs: ["pre-marriage-10-things-to-know", "7-ways-to-reduce-husband-wife-conflicts"],
+    content: (
+      <div className="space-y-6 text-slate-800 dark:text-slate-200 leading-relaxed">
+        <div className="p-6 rounded-3xl bg-amber-500/10 border border-amber-500/30 text-amber-950 dark:text-amber-100 space-y-2">
+          <div className="flex items-center gap-2 font-bold text-lg text-amber-800 dark:text-amber-300">
+            <Heart className="h-5 w-5 text-amber-600 fill-current" />
+            <span>జీవన బంధం మార్గదర్శక సందేశం</span>
+          </div>
+          <p className="text-sm leading-relaxed">
+            ప్రతి బంధంలోనూ సమస్యలు సహజం. వాటిని విమర్శలతో కాకుండా, ప్రేమతో, శాస్త్రీయ కౌన్సెలింగ్ విధానాలతో పరిష్కరించుకోవచ్చు. మీరు లేదా మీ ప్రియమైనవారు బాధపడుతుంటే వెంటనే సహాయం పొందండి.
+          </p>
+        </div>
+
+        
+        <h2 id="signs-of-emotional-abuse" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>1. మానసిక హింస యొక్క ముఖ్యమైన 5 సంకేతాలు</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <h2 id="gaslighting-explained" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>2. గ్యాస్‌లైటింగ్ (Gaslighting): మీ తప్పేనని నమ్మించే కుట్ర</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <h2 id="setting-boundaries" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>3. సహించకుండా గట్టిగా మీ హద్దులను తెలియజేయడం</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <h2 id="emergency-support-181" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>4. మహిళా హెల్ప్‌లైన్ 181 మరియు ఉచిత కౌన్సెలింగ్</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <h2 id="building-safety-plan" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>5. అత్యవసర భద్రతా ప్రణాళిక (Safety Plan) రూపొందించుకోవడం</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <div className="mt-8 p-6 rounded-3xl bg-brand-primary/10 border border-brand-primary/30 space-y-3">
+          <h3 className="text-xl font-bold text-brand-primary flex items-center gap-2">
+            <Phone className="h-5 w-5" />
+            <span>తక్షణ అత్యవసర సహాయం & కౌన్సెలింగ్</span>
+          </h3>
+          <p className="text-sm text-slate-700 dark:text-slate-300">
+            మీరు తీవ్రమైన మానసిక ఆందోళనలో ఉన్నారా? ప్రభుత్వ ఉచిత జాతీయ హెల్ప్‌లైన్లను ఇప్పుడే సంప్రదించండి:
+          </p>
+          <div className="flex flex-wrap gap-3 pt-2">
+            <a href="tel:14416" className="px-4 py-2 bg-brand-primary text-white font-bold rounded-xl text-sm shadow hover:opacity-90 transition">
+              📞 Tele-MANAS: 14416 (24/7 తెలుగు)
+            </a>
+            <a href="tel:112" className="px-4 py-2 bg-rose-600 text-white font-bold rounded-xl text-sm shadow hover:bg-rose-700 transition">
+              🚨 జాతీయ ఎమర్జెన్సీ: 112
+            </a>
+            <a href="tel:1098" className="px-4 py-2 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow hover:bg-indigo-700 transition">
+              🛡️ చైల్డ్‌లైన్: 1098
+            </a>
+          </div>
+        </div>
+      </div>
+    )
+  },
 ];
 
 export function getAllBlogArticles(): BlogArticle[] {
