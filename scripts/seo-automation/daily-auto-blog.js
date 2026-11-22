@@ -225,6 +225,154 @@ const TELUGU_PILLAR_TOPICS = [
         answer: "తప్పకుండా చేయవచ్చు. భారతీయ గృహహింస నిరోధక చట్టం కింద మానసిక, మాటల మరియు ఆర్థిక హింస కూడా చట్టవిరుద్ధం. మహిళా హెల్ప్‌లైన్ 181 కు ఉచితంగా కాల్ చేయవచ్చు."
       }
     ]
+  },
+  {
+    "slug": "overcoming-ego-clashes-in-marriage",
+    "title": "భార్యాభర్తల మధ్య ఈగో (అహం) సమస్యలు: వివాహ బంధాన్ని కాపాడుకునే 7 ఆచరణాత్మక మార్గాలు",
+    "titleEn": "Overcoming Ego Clashes in Marriage: 7 Practical Communication Rules for Couples",
+    "subtitle": "చిన్న వాదనలు తీవ్రమైన వివాదాలుగా మారకుండా, అహాన్ని పక్కనపెట్టి అనుబంధాన్ని బలపరిచే స్పష్టమైన కౌన్సెలింగ్ మార్గదర్శి.",
+    "category": "భార్యాభర్తల అనుబంధం (Relationships)",
+    "primaryKeyword": "భార్యాభర్తల మధ్య ఈగో సమస్యలు",
+    "secondaryKeywords": [
+      "ego problems in marriage telugu",
+      "భార్యాభర్తల గొడవలు పరిష్కారం",
+      "relationship counseling telugu",
+      "marital conflict resolution"
+    ],
+    "toolLink": "/support",
+    "toolName": "వివాహ & కుటుంబ కౌన్సెలింగ్ సేవలు",
+    "readTime": "8 నిమిషాలు",
+    "excerpt": "దాంపత్య జీవితంలో 'నేను గెలవాలి' అనే అహం కంటే 'మన బంధం గెలవాలి' అనే అవగాహన ఎంత ముఖ్యమో వివరించే సమగ్ర తెలుగు గైడ్.",
+    "metaDescription": "భార్యాభర్తల మధ్య వచ్చే ఈగో క్లాషెస్ నివారించి, ఆరోగ్యకరమైన సంభాషణతో వైవాహిక జీవితాన్ని సుఖమయం చేసుకునే 7 అద్భుతమైన మార్గాలు.",
+    "pillar": "Relationships",
+    "h2Topics": [
+      {
+        "id": "recognizing-ego-clashes",
+        "title": "1. దాంపత్యంలో ఈగో (అహం) సంకేతాలను గుర్తించడం ఎలా?"
+      },
+      {
+        "id": "win-argument-lose-relationship",
+        "title": "2. 'వాదనలో గెలవడం vs బంధాన్ని కాపాడుకోవడం' - తేడా ఏమిటి?"
+      },
+      {
+        "id": "active-listening-rules",
+        "title": "3. ఎదుటివారి భావాలను గౌరవించే యాక్టివ్ లిజనింగ్ సూత్రాలు"
+      },
+      {
+        "id": "replacing-you-with-i",
+        "title": "4. 'నువ్వు ఇలా చేశావు' అనకుండా 'నాకు ఇలా అనిపిస్తోంది' అని చెప్పడం"
+      },
+      {
+        "id": "seeking-counseling-early",
+        "title": "5. సమస్య తీవ్రం కాకముందే ప్రొఫెషనల్ కౌన్సెలింగ్ తీసుకోవడం"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "భార్యాభర్తల మధ్య అహం తగ్గడానికి మొదటి అడుగు ఎవరు వేయాలి?",
+        "answer": "ఎవరు మొదట అడుగు వేశారనే దానికంటే, బంధం విచ్ఛిన్నం కాకుండా కాపాడుకోవడమే ముఖ్యం. 'సారీ' లేదా 'మనం మాట్లాడుకుందాం' అనడం బలహీనత కాదు, పరిపక్వత."
+      },
+      {
+        "question": "ఈగో వల్ల రోజూ మాటలు లేకుండా ఉండే పరిస్థితిని ఎలా సరిదిద్దాలి?",
+        "answer": "మౌనం (Silent Treatment) సమస్యను పెంచుతుంది. ప్రశాంతమైన వాతావరణంలో చిన్న సందేశం లేదా టీ కప్పుతో సంభాషణను పునఃప్రారంభించండి."
+      }
+    ]
+  },
+  {
+    "slug": "postpartum-depression-support-telugu-families",
+    "title": "బాలింతలలో ప్రసవానంతర కుంగుబాటు (Postpartum Depression): భర్త మరియు కుటుంబం అందించాల్సిన మానసిక మద్దతు",
+    "titleEn": "Postpartum Depression in New Mothers: How Husbands and Families Can Provide Emotional Support",
+    "subtitle": "ప్రసవం తర్వాత మహిళల్లో కలిగే తీవ్ర ఆందోళన, అలసట మరియు మూడ్ స్వింగ్స్ నుంచి బయటపడటానికి సమగ్ర గైడ్.",
+    "category": "మానసిక ఆరోగ్యం (Mental Health)",
+    "primaryKeyword": "బాలింతలలో డిప్రెషన్ లక్షణాలు",
+    "secondaryKeywords": [
+      "postpartum depression telugu",
+      "ప్రసవానంతర కుంగుబాటు",
+      "tele manas 14416",
+      "new mother mental health"
+    ],
+    "toolLink": "/support",
+    "toolName": "24/7 భావోద్వేగ సాంత్వన & కౌన్సెలింగ్",
+    "readTime": "9 నిమిషాలు",
+    "excerpt": "బిడ్డ పుట్టిన ఆనందంతో పాటు తల్లులు ఎదుర్కొనే తీవ్ర మానసిక ఒత్తిడి, ఆందోళనలను కుటుంబ సభ్యులు ఎలా అర్థం చేసుకోవాలో తెలిపే గైడ్.",
+    "metaDescription": "బాలింతలలో పోస్ట్‌పార్టమ్ డిప్రెషన్ లక్షణాలు, భర్త పాత్ర మరియు కుటుంబ సభ్యులు అందించాల్సిన అత్యవసర మానసిక మద్దతు.",
+    "pillar": "Mental Health",
+    "h2Topics": [
+      {
+        "id": "baby-blues-vs-ppd",
+        "title": "1. 'బేబీ బ్లూస్' vs 'పోస్ట్‌పార్టమ్ డిప్రెషన్' మధ్య తేడా"
+      },
+      {
+        "id": "identifying-symptoms",
+        "title": "2. నిద్రలేమి, తీవ్ర విచారం మరియు భయం లక్షణాలు"
+      },
+      {
+        "id": "husband-vital-role",
+        "title": "3. భర్త తీసుకోవాల్సిన బాధ్యతలు మరియు ప్రేమపూర్వక సంరక్షణ"
+      },
+      {
+        "id": "family-non-judgmental-support",
+        "title": "4. విమర్శించకుండా సహాయపడే ఉమ్మడి కుటుంబ వాతావరణం"
+      },
+      {
+        "id": "medical-counseling-help",
+        "title": "5. డాక్టర్ సంప్రదింపులు మరియు Tele-MANAS (14416) సహాయం"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "పోస్ట్‌పార్టమ్ డిప్రెషన్ ఎంతకాలం ఉంటుంది?",
+        "answer": "సరైన కుటుంబ మద్దతు మరియు కౌన్సెలింగ్ ఉంటే కొన్ని వారాలు లేదా నెలల్లో తగ్గుతుంది. నిర్లక్ష్యం చేస్తే తీవ్రమవుతుంది, కాబట్టి ప్రారంభంలోనే సహాయం పొందాలి."
+      }
+    ]
+  },
+  {
+    "slug": "managing-exam-stress-and-academic-anxiety",
+    "title": "పిల్లల్లో పరీక్షల ఒత్తిడి మరియు భయం: తల్లిదండ్రులు ఇవ్వాల్సిన మానసిక ధైర్యం & పేరెంటింగ్ సలహాలు",
+    "titleEn": "Managing Exam Stress and Academic Anxiety in Children: Parents Guide to Emotional Support",
+    "subtitle": "మార్కుల ఒత్తిడితో పిల్లలు కుంగిపోకుండా, వారి ఆత్మవిశ్వాసాన్ని పెంచి ఆరోగ్యకరమైన భవిష్యత్తును తీర్చిదిద్దే పేరెంటింగ్ గైడ్.",
+    "category": "పేరెంటింగ్ సలహాలు (Parenting)",
+    "primaryKeyword": "పిల్లల్లో పరీక్షల ఒత్తిడి నివారణ",
+    "secondaryKeywords": [
+      "exam stress management telugu",
+      "పిల్లల మానసిక ఆరోగ్యం",
+      "parenting tips for exams",
+      "childline 1098"
+    ],
+    "toolLink": "/child-protection",
+    "toolName": "బాలల సంరక్షణ & పేరెంటింగ్ మార్గదర్శి",
+    "readTime": "8 నిమిషాలు",
+    "excerpt": "పరీక్షల సమయంలో పిల్లలపై ర్యాంకుల ఒత్తిడి పెట్టకుండా, వారి మానసిక స్థైర్యాన్ని పెంచే ఆరోగ్యకరమైన పేరెంటింగ్ పద్ధతులు.",
+    "metaDescription": "పరీక్షల సమయంలో పిల్లల్లో భయం, ఒత్తిడి తగ్గించి ఆత్మవిశ్వాసం నింపేందుకు తల్లిదండ్రులు పాటించాల్సిన 5 కీలక సూత్రాలు.",
+    "pillar": "Parenting",
+    "h2Topics": [
+      {
+        "id": "signs-of-exam-anxiety",
+        "title": "1. పిల్లల్లో పరీక్షల ఆందోళన సంకేతాలు (నిద్రలేమి, ఆకలి మందగించడం)"
+      },
+      {
+        "id": "avoid-comparison",
+        "title": "2. ఇతరులతో పోల్చడం ఆపి, వారి ప్రత్యేక ప్రతిభను గుర్తించండి"
+      },
+      {
+        "id": "healthy-routine-nutrition",
+        "title": "3. సరైన నిద్ర, సమతుల్య ఆహారం మరియు చిన్న విరామాలు"
+      },
+      {
+        "id": "emotional-reassurance",
+        "title": "4. 'మార్కుల కంటే నువ్వే మాకు ముఖ్యం' అనే భరోసా ఇవ్వడం"
+      },
+      {
+        "id": "childline-telemanas-guidance",
+        "title": "5. అవసరమైతే నిపుణుల కౌన్సెలింగ్ (Tele-MANAS: 14416 / Childline: 1098)"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "పరీక్షల్లో తక్కువ మార్కులు వస్తే పిల్లలతో ఎలా మాట్లాడాలి?",
+        "answer": "కోపగించుకోవడం లేదా నిందించడం మానేసి, లోపాలు ఎక్కడ ఉన్నాయో శాంతంగా చర్చించండి. జీవితంలో అనేక అవకాశాలు ఉంటాయని ధైర్యం చెప్పండి."
+      }
+    ]
   }
 ];
 
@@ -411,7 +559,7 @@ export async function runDailyAutoBlog() {
     execSync("npm run build", { cwd: REPO_ROOT, stdio: "inherit" });
 
     console.log("Staging git changes including prebuilt Vercel output...");
-    execSync("git add src/data/blogArticles.tsx public/sitemap.xml public/llms.txt public/c7a8b9e0f1d24c5b8a9e0f1d2c3b4a5d.txt scripts/indexnow.js .vercel/output .gitignore", { cwd: REPO_ROOT, stdio: "inherit" });
+    execSync("git add src/data/blogArticles.tsx public/sitemap.xml public/llms.txt public/c7a8b9e0f1d24c5b8a9e0f1d2c3b4a5d.txt scripts/indexnow.js scripts/seo-automation/daily-auto-blog.js .vercel/output .gitignore", { cwd: REPO_ROOT, stdio: "inherit" });
     const commitMsg = `feat(blog): publish daily Telugu SEO guide - ${selectedTopic.titleEn} [${selectedTopic.slug}]`;
     execSync(`git commit -m "${commitMsg}"`, { cwd: REPO_ROOT, stdio: "inherit" });
     console.log("Pushing to GitHub remote main...");
