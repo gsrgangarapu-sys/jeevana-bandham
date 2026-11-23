@@ -1692,6 +1692,116 @@ const ALL_BLOG_ARTICLES = [
         ] })
       ] })
     ] })
+  },
+  // బాలింతలలో ప్రసవానంతర కుంగుబాటు (Postpartum Depression): భర్త మరియు కుటుంబం అందించాల్సిన మానసిక మద్దతు
+  {
+    id: "postpartum-depression-support-telugu-families",
+    slug: "postpartum-depression-support-telugu-families",
+    title: "బాలింతలలో ప్రసవానంతర కుంగుబాటు (Postpartum Depression): భర్త మరియు కుటుంబం అందించాల్సిన మానసిక మద్దతు",
+    titleEn: "Postpartum Depression in New Mothers: How Husbands and Families Can Provide Emotional Support",
+    subtitle: "ప్రసవం తర్వాత మహిళల్లో కలిగే తీవ్ర ఆందోళన, అలసట మరియు మూడ్ స్వింగ్స్ నుంచి బయటపడటానికి సమగ్ర గైడ్.",
+    category: "మానసిక ఆరోగ్యం (Mental Health)",
+    status: "published",
+    readTime: "9 నిమిషాలు",
+    date: "నవంబర్ 2026",
+    updatedDate: "2026-11-23",
+    author: {
+      name: "జీవన బంధం ఎడిటోరియల్ & కౌన్సెలింగ్ బోర్డు",
+      role: "సీనియర్ ఫ్యామిలీ కౌన్సెలర్"
+    },
+    primaryKeyword: "బాలింతలలో డిప్రెషన్ లక్షణాలు",
+    secondaryKeywords: ["postpartum depression telugu", "ప్రసవానంతర కుంగుబాటు", "tele manas 14416", "new mother mental health"],
+    searchIntent: "Compassionate Counseling & Practical Guidance",
+    tags: ["కుటుంబం", "కౌన్సెలింగ్", "Mental Health", "మానసిక ఆరోగ్యం", "జీవన బంధం"],
+    excerpt: "బిడ్డ పుట్టిన ఆనందంతో పాటు తల్లులు ఎదుర్కొనే తీవ్ర మానసిక ఒత్తిడి, ఆందోళనలను కుటుంబ సభ్యులు ఎలా అర్థం చేసుకోవాలో తెలిపే గైడ్.",
+    metaDescription: "బాలింతలలో పోస్ట్‌పార్టమ్ డిప్రెషన్ లక్షణాలు, భర్త పాత్ర మరియు కుటుంబ సభ్యులు అందించాల్సిన అత్యవసర మానసిక మద్దతు.",
+    canonicalUrl: "https://www.jeevanabandham.online/blog/postpartum-depression-support-telugu-families",
+    targetToolLink: "/support",
+    targetToolName: "24/7 భావోద్వేగ సాంత్వన & కౌన్సెలింగ్",
+    tableOfContents: [{ "id": "baby-blues-vs-ppd", "title": "1. 'బేబీ బ్లూస్' vs 'పోస్ట్‌పార్టమ్ డిప్రెషన్' మధ్య తేడా" }, { "id": "identifying-symptoms", "title": "2. నిద్రలేమి, తీవ్ర విచారం మరియు భయం లక్షణాలు" }, { "id": "husband-vital-role", "title": "3. భర్త తీసుకోవాల్సిన బాధ్యతలు మరియు ప్రేమపూర్వక సంరక్షణ" }, { "id": "family-non-judgmental-support", "title": "4. విమర్శించకుండా సహాయపడే ఉమ్మడి కుటుంబ వాతావరణం" }, { "id": "medical-counseling-help", "title": "5. డాక్టర్ సంప్రదింపులు మరియు Tele-MANAS (14416) సహాయం" }],
+    faqs: [{ "question": "పోస్ట్‌పార్టమ్ డిప్రెషన్ ఎంతకాలం ఉంటుంది?", "answer": "సరైన కుటుంబ మద్దతు మరియు కౌన్సెలింగ్ ఉంటే కొన్ని వారాలు లేదా నెలల్లో తగ్గుతుంది. నిర్లక్ష్యం చేస్తే తీవ్రమవుతుంది, కాబట్టి ప్రారంభంలోనే సహాయం పొందాలి." }],
+    relatedSlugs: ["pre-marriage-10-things-to-know", "7-ways-to-reduce-husband-wife-conflicts"],
+    content: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6 text-slate-800 dark:text-slate-200 leading-relaxed", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6 rounded-3xl bg-amber-500/10 border border-amber-500/30 text-amber-950 dark:text-amber-100 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 font-bold text-lg text-amber-800 dark:text-amber-300", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Heart, { className: "h-5 w-5 text-amber-600 fill-current" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "జీవన బంధం మార్గదర్శక సందేశం" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm leading-relaxed", children: "ప్రతి బంధంలోనూ సమస్యలు సహజం. వాటిని విమర్శలతో కాకుండా, ప్రేమతో, శాస్త్రీయ కౌన్సెలింగ్ విధానాలతో పరిష్కరించుకోవచ్చు. మీరు లేదా మీ ప్రియమైనవారు బాధపడుతుంటే వెంటనే సహాయం పొందండి." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "baby-blues-vs-ppd", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "1. 'బేబీ బ్లూస్' vs 'పోస్ట్‌పార్టమ్ డిప్రెషన్' మధ్య తేడా" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఆచరణాత్మక కార్యాచరణ చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "identifying-symptoms", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "2. నిద్రలేమి, తీవ్ర విచారం మరియు భయం లక్షణాలు" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఆచరణాత్మక కార్యాచరణ చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "husband-vital-role", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "3. భర్త తీసుకోవాల్సిన బాధ్యతలు మరియు ప్రేమపూర్వక సంరక్షణ" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఆచరణాత్మక కార్యాచరణ చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "family-non-judgmental-support", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "4. విమర్శించకుండా సహాయపడే ఉమ్మడి కుటుంబ వాతావరణం" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఆచరణాత్మక కార్యాచరణ చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "medical-counseling-help", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "5. డాక్టర్ సంప్రదింపులు మరియు Tele-MANAS (14416) సహాయం" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఆచరణాత్మక కార్యాచరణ చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-8 p-6 rounded-3xl bg-brand-primary/10 border border-brand-primary/30 space-y-3", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-bold text-brand-primary flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "h-5 w-5" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "తక్షణ అత్యవసర సహాయం & కౌన్సెలింగ్" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-700 dark:text-slate-300", children: "మీరు తీవ్రమైన మానసిక ఆందోళనలో ఉన్నారా? ప్రభుత్వ ఉచిత జాతీయ హెల్ప్‌లైన్లను ఇప్పుడే సంప్రదించండి:" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-3 pt-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:14416", className: "px-4 py-2 bg-brand-primary text-white font-bold rounded-xl text-sm shadow hover:opacity-90 transition", children: "📞 Tele-MANAS: 14416 (24/7 తెలుగు)" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:112", className: "px-4 py-2 bg-rose-600 text-white font-bold rounded-xl text-sm shadow hover:bg-rose-700 transition", children: "🚨 జాతీయ ఎమర్జెన్సీ: 112" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:1098", className: "px-4 py-2 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow hover:bg-indigo-700 transition", children: "🛡️ చైల్డ్‌లైన్: 1098" })
+        ] })
+      ] })
+    ] })
   }
 ];
 function getBlogArticleBySlug(slug) {
@@ -1807,7 +1917,7 @@ const Route$4 = createFileRoute("/child-protection")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./index-cWGhGBY5.mjs");
+const $$splitComponentImporter$1 = () => import("./index-DkSFbGtA.mjs");
 const Route$3 = createFileRoute("/")({
   head: () => ({
     meta: [{
@@ -2345,7 +2455,7 @@ const stories = [
     ] })
   }
 ];
-const $$splitComponentImporter = () => import("../_storyId-DmicCMX3.mjs");
+const $$splitComponentImporter = () => import("../_storyId-BTUc83io.mjs");
 const Route$1 = createFileRoute("/stories/$storyId")({
   loader: ({
     params
