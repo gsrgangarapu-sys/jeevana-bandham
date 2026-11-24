@@ -34,4 +34,3 @@ dist-ssr
 !.vercel/output
 !.vercel/output/**
 .env*
-.vercel
