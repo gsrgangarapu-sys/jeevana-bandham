@@ -2165,6 +2165,161 @@ export const ALL_BLOG_ARTICLES: BlogArticle[] = [
       </div>
     )
   },
+
+  // పిల్లలపై లైంగిక వేధింపుల నివారణ (POCSO చట్టం): తల్లిదండ్రులు నేర్పించాల్సిన సేఫ్ టచ్ & అన్‌సేఫ్ టచ్ మార్గదర్శకాలు
+  {
+    id: "child-safety-pocso-safe-touch-awareness",
+    slug: "child-safety-pocso-safe-touch-awareness",
+    title: "పిల్లలపై లైంగిక వేధింపుల నివారణ (POCSO చట్టం): తల్లిదండ్రులు నేర్పించాల్సిన సేఫ్ టచ్ & అన్‌సేఫ్ టచ్ మార్గదర్శకాలు",
+    titleEn: "Child Safety and POCSO Awareness: Parents Guide to Teaching Safe Touch, Unsafe Touch, and Protective Habits",
+    subtitle: "పిల్లలను లైంగిక వేధింపుల నుండి కాపాడేందుకు గుడ్ టచ్, బ్యాడ్ టచ్ తేడాలు, POCSO చట్టం రక్షణలు మరియు చైల్డ్‌లైన్ 1098 అత్యవసర సహాయంపై సమగ్ర గైడ్.",
+    category: "బాలల రక్షణ & హక్కులు (Child Protection)",
+    status: "published",
+    readTime: "9 నిమిషాలు",
+    date: "నవంబర్ 2026",
+    updatedDate: "2026-11-25",
+    author: {
+      name: "జీవన బంధం ఎడిటోరియల్ & కౌన్సెలింగ్ బోర్డు",
+      role: "సీనియర్ ఫ్యామిలీ కౌన్సెలర్"
+    },
+    primaryKeyword: "పిల్లల రక్షణ సేఫ్ టచ్ మార్గదర్శకాలు",
+    secondaryKeywords: ["pocso act telugu awareness","child safety good touch bad touch telugu","childline 1098 telugu","పిల్లలపై లైంగిక వేధింపుల నివారణ","బాలల హక్కులు చట్టం"],
+    searchIntent: "Compassionate Counseling & Practical Guidance",
+    tags: ["కుటుంబం","కౌన్సెలింగ్","Child Protection","మానసిక ఆరోగ్యం","జీవన బంధం"],
+    excerpt: "పిల్లల భద్రత కోసం ప్రతి తల్లిదండ్రులు నేర్పించాల్సిన సేఫ్ టచ్ & అన్‌సేఫ్ టచ్ నియమాలు, POCSO చట్టం రక్షణలు మరియు అత్యవసర హెల్ప్‌లైన్లు.",
+    metaDescription: "పిల్లలకు సేఫ్ టచ్ మరియు అన్‌సేఫ్ టచ్ ఎలా నేర్పించాలి? POCSO చట్టం నిబంధనలు, చైల్డ్‌లైన్ 1098 సహాయం మరియు తల్లిదండ్రుల బాధ్యతలపై పూర్తి తెలుగు గైడ్.",
+    canonicalUrl: "https://www.jeevanabandham.online/blog/child-safety-pocso-safe-touch-awareness",
+    targetToolLink: "/child-protection",
+    targetToolName: "బాలల సంరక్షణ & పేరెంటింగ్ మార్గదర్శి",
+    tableOfContents: [{"id":"why-body-safety-matters","title":"1. పిల్లలకు బాడీ సేఫ్టీ (Body Safety) నియమాలు నేర్పించడం ఎందుకు ముఖ్యం?"},{"id":"safe-touch-vs-unsafe-touch","title":"2. సేఫ్ టచ్ (Safe Touch) మరియు అన్‌సేఫ్ టచ్ (Unsafe Touch) మధ్య తేడాలు"},{"id":"pocso-act-legal-protections","title":"3. POCSO చట్టం 2012: పిల్లలకు భారత చట్టం కల్పించిన ప్రత్యేక కవచం"},{"id":"recognizing-abuse-warning-signs","title":"4. పిల్లల్లో వేధింపుల సంకేతాలను గుర్తించడం (ప్రవర్తన మార్పులు, తీవ్ర భయం)"},{"id":"emergency-reporting-childline","title":"5. అత్యవసర సహాయం: చైల్డ్‌లైన్ 1098 మరియు పోక్సో ఈ-బాక్స్ (POCSO E-Box)"}],
+    faqs: [{"question":"పిల్లలకు బాడీ సేఫ్టీ గురించి ఏ వయస్సు నుంచి నేర్పించాలి?","answer":"3 నుండి 4 సంవత్సరాల వయస్సు నుంచే స్నానం చేయించేటప్పుడు లేదా బట్టలు మార్చేటప్పుడు ప్రైవేట్ శరీర భాగాలు ఇతరులు తాకకూడదని సున్నితంగా అర్థమయ్యేలా నేర్పించాలి."},{"question":"పిల్లలపై వేధింపుల గురించి తెలిస్తే ఫిర్యాదు చేయడం చట్టపరంగా తప్పనిసరా?","answer":"అవును, POCSO చట్టం సెక్షన్ 19 ప్రకారం పిల్లలపై వేధింపులు జరిగినట్లు తెలిసినా లేదా అనుమానం ఉన్నా ఎవరైనా తప్పనిసరిగా పోలీసులకు లేదా చైల్డ్‌లైన్ 1098కు తెలియజేయాలి."}],
+    relatedSlugs: ["pre-marriage-10-things-to-know", "7-ways-to-reduce-husband-wife-conflicts"],
+    content: (
+      <div className="space-y-6 text-slate-800 dark:text-slate-200 leading-relaxed">
+        <div className="p-6 rounded-3xl bg-amber-500/10 border border-amber-500/30 text-amber-950 dark:text-amber-100 space-y-2">
+          <div className="flex items-center gap-2 font-bold text-lg text-amber-800 dark:text-amber-300">
+            <Heart className="h-5 w-5 text-amber-600 fill-current" />
+            <span>జీవన బంధం మార్గదర్శక సందేశం</span>
+          </div>
+          <p className="text-sm leading-relaxed">
+            ప్రతి బంధంలోనూ సమస్యలు సహజం. వాటిని విమర్శలతో కాకుండా, ప్రేమతో, శాస్త్రీయ కౌన్సెలింగ్ విధానాలతో పరిష్కరించుకోవచ్చు. మీరు లేదా మీ ప్రియమైనవారు బాధపడుతుంటే వెంటనే సహాయం పొందండి.
+          </p>
+        </div>
+
+        
+        <h2 id="why-body-safety-matters" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>1. పిల్లలకు బాడీ సేఫ్టీ (Body Safety) నియమాలు నేర్పించడం ఎందుకు ముఖ్యం?</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <h2 id="safe-touch-vs-unsafe-touch" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>2. సేఫ్ టచ్ (Safe Touch) మరియు అన్‌సేఫ్ టచ్ (Unsafe Touch) మధ్య తేడాలు</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <h2 id="pocso-act-legal-protections" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>3. POCSO చట్టం 2012: పిల్లలకు భారత చట్టం కల్పించిన ప్రత్యేక కవచం</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <h2 id="recognizing-abuse-warning-signs" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>4. పిల్లల్లో వేధింపుల సంకేతాలను గుర్తించడం (ప్రవర్తన మార్పులు, తీవ్ర భయం)</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <h2 id="emergency-reporting-childline" className="text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+          <Shield className="h-6 w-6 text-brand-primary" />
+          <span>5. అత్యవసర సహాయం: చైల్డ్‌లైన్ 1098 మరియు పోక్సో ఈ-బాక్స్ (POCSO E-Box)</span>
+        </h2>
+        <p>
+          ఈ విభాగంలో మనం తెలుసుకోవలసిన అత్యంత ముఖ్యమైన విషయం పరస్పర అవగాహన. కుటుంబంలో లేదా వైవాహిక జీవితంలో ఏ సమస్య వచ్చినా నిశ్శబ్దంగా కుమిలిపోవడం కంటే, నిపుణుల సలహాతో లేదా ప్రశాంతమైన సంభాషణతో పరిష్కారం కనుగొనడం ఎంతో శ్రేయస్కరం.
+        </p>
+        <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2">
+          <h4 className="font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+            <span>ఆచరణాత్మక కార్యాచరణ చిట్కా</span>
+          </h4>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            ప్రతిరోజూ కనీసం 15 నిమిషాల సమయం మొబైల్ లేదా టీవీ లేకుండా ఒకరితో ఒకరు మనసు విప్పి మాట్లాడండి. ఇది అపార్థాలను 70% వరకు తగ్గిస్తుంది.
+          </p>
+        </div>
+        
+
+        <div className="mt-8 p-6 rounded-3xl bg-brand-primary/10 border border-brand-primary/30 space-y-3">
+          <h3 className="text-xl font-bold text-brand-primary flex items-center gap-2">
+            <Phone className="h-5 w-5" />
+            <span>తక్షణ అత్యవసర సహాయం & కౌన్సెలింగ్</span>
+          </h3>
+          <p className="text-sm text-slate-700 dark:text-slate-300">
+            మీరు తీవ్రమైన మానసిక ఆందోళనలో ఉన్నారా? ప్రభుత్వ ఉచిత జాతీయ హెల్ప్‌లైన్లను ఇప్పుడే సంప్రదించండి:
+          </p>
+          <div className="flex flex-wrap gap-3 pt-2">
+            <a href="tel:14416" className="px-4 py-2 bg-brand-primary text-white font-bold rounded-xl text-sm shadow hover:opacity-90 transition">
+              📞 Tele-MANAS: 14416 (24/7 తెలుగు)
+            </a>
+            <a href="tel:112" className="px-4 py-2 bg-rose-600 text-white font-bold rounded-xl text-sm shadow hover:bg-rose-700 transition">
+              🚨 జాతీయ ఎమర్జెన్సీ: 112
+            </a>
+            <a href="tel:1098" className="px-4 py-2 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow hover:bg-indigo-700 transition">
+              🛡️ చైల్డ్‌లైన్: 1098
+            </a>
+          </div>
+        </div>
+      </div>
+    )
+  },
 ];
 
 export function getAllBlogArticles(): BlogArticle[] {
