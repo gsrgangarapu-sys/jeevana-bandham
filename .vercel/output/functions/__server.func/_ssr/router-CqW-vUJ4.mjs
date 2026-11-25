@@ -1,9 +1,9 @@
 import { Q as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { Q as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
-import { c as createRouter, a as createRootRouteWithContext, u as useRouter, L as Link, O as Outlet, H as HeadContent, S as Scripts, b as createFileRoute, l as lazyRouteComponent, d as useParams } from "../_libs/tanstack__react-router.mjs";
+import { c as createRouter, a as createRootRouteWithContext, u as useRouter, L as Link, O as Outlet, H as HeadContent, S as Scripts, b as createFileRoute, l as lazyRouteComponent } from "../_libs/tanstack__react-router.mjs";
 import { Q as notFound } from "../_libs/tanstack__router-core.mjs";
 import { r as reactExports, j as jsxRuntimeExports } from "../_libs/react.mjs";
-import { B as BookOpen, S as Search, C as Clock, a as ChevronRight, A as ArrowLeft, b as Check, c as Share2, d as CircleQuestionMark, H as Heart, e as Sparkles, f as Shield, g as CircleAlert, h as CircleCheck, P as Phone, i as Smile } from "../_libs/lucide-react.mjs";
+import { B as BookOpen, S as Search, C as Clock, a as ChevronRight, T as TriangleAlert, A as ArrowLeft, b as Check, c as Share2, P as Phone, d as Calendar, e as ShieldCheck, f as Sparkles, g as CircleQuestionMark, H as Heart, h as Shield, i as CircleAlert, j as CircleCheck, k as Smile } from "../_libs/lucide-react.mjs";
 import "../_libs/react-dom.mjs";
 import "util";
 import "crypto";
@@ -16,7 +16,7 @@ import "../_libs/cookie-es.mjs";
 import "../_libs/seroval.mjs";
 import "../_libs/seroval-plugins.mjs";
 import "node:stream/web";
-const appCss = "/assets/styles-QJ8bgbCM.css";
+const appCss = "/assets/styles-NiwGSSgo.css";
 function reportLovableError(error, context = {}) {
   if (typeof window === "undefined") return;
   window.__lovableEvents?.captureException?.(
@@ -2137,7 +2137,7 @@ const Route$4 = createFileRoute("/child-protection")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./index-pHBJu7p1.mjs");
+const $$splitComponentImporter$1 = () => import("./index-C5nqfYrk.mjs");
 const Route$3 = createFileRoute("/")({
   head: () => ({
     meta: [{
@@ -2675,7 +2675,7 @@ const stories = [
     ] })
   }
 ];
-const $$splitComponentImporter = () => import("../_storyId-DLWd19ny.mjs");
+const $$splitComponentImporter = () => import("../_storyId-BEkBazu1.mjs");
 const Route$1 = createFileRoute("/stories/$storyId")({
   loader: ({
     params
@@ -2700,46 +2700,95 @@ const Route$1 = createFileRoute("/stories/$storyId")({
   }),
   component: lazyRouteComponent($$splitComponentImporter, "component")
 });
+const $$splitNotFoundComponentImporter = () => import("../_slug-DhW1bIn4.mjs");
 const Route = createFileRoute("/blog/$slug")({
-  head: ({ params }) => {
+  loader: ({
+    params
+  }) => {
     const article = getBlogArticleBySlug(params.slug);
     if (!article) {
+      throw notFound();
+    }
+    return {
+      article
+    };
+  },
+  head: ({
+    loaderData
+  }) => {
+    const article = loaderData?.article;
+    if (!article) {
       return {
-        meta: [
-          { title: "ఆర్టికల్ లభించలేదు | జీవన బంధం" },
-          { name: "description", content: "మీరు వెతుకుతున్న వ్యాసం అందుబాటులో లేదు." },
-          { name: "robots", content: "noindex, follow" }
-        ]
+        meta: [{
+          title: "ఆర్టికల్ లభించలేదు | జీవన బంధం"
+        }, {
+          name: "description",
+          content: "మీరు వెతుకుతున్న వ్యాసం అందుబాటులో లేదు."
+        }, {
+          name: "robots",
+          content: "noindex, follow"
+        }]
       };
     }
     const title = `${article.title} | జీవన బంధం`;
     const description = article.metaDescription || article.excerpt;
     const url = `https://www.jeevanabandham.online/blog/${article.slug}`;
     return {
-      meta: [
-        { title },
-        { name: "description", content: description },
-        { property: "og:title", content: title },
-        { property: "og:description", content: description },
-        { property: "og:url", content: url },
-        { property: "og:type", content: "article" },
-        { property: "og:image", content: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1200&q=80" },
-        { property: "article:published_time", content: article.updatedDate },
-        { property: "article:section", content: article.category },
-        { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:title", content: title },
-        { name: "twitter:description", content: description },
-        { name: "keywords", content: [article.primaryKeyword, ...article.secondaryKeywords, ...article.tags].join(", ") },
-        { name: "robots", content: "index, follow" }
-      ],
-      links: [{ rel: "canonical", href: url }]
+      meta: [{
+        title
+      }, {
+        name: "description",
+        content: description
+      }, {
+        property: "og:title",
+        content: title
+      }, {
+        property: "og:description",
+        content: description
+      }, {
+        property: "og:url",
+        content: url
+      }, {
+        property: "og:type",
+        content: "article"
+      }, {
+        property: "og:image",
+        content: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=1200&q=80"
+      }, {
+        property: "article:published_time",
+        content: article.updatedDate
+      }, {
+        property: "article:section",
+        content: article.category
+      }, {
+        name: "twitter:card",
+        content: "summary_large_image"
+      }, {
+        name: "twitter:title",
+        content: title
+      }, {
+        name: "twitter:description",
+        content: description
+      }, {
+        name: "keywords",
+        content: [article.primaryKeyword, ...article.secondaryKeywords, ...article.tags].join(", ")
+      }, {
+        name: "robots",
+        content: "index, follow"
+      }],
+      links: [{
+        rel: "canonical",
+        href: url
+      }]
     };
   },
+  notFoundComponent: lazyRouteComponent($$splitNotFoundComponentImporter, "notFoundComponent"),
   component: BlogPostPage
 });
 function BlogPostPage() {
-  const { slug } = useParams({ from: "/blog/$slug" });
-  const article = getBlogArticleBySlug(slug);
+  const {
+    article
+  } = Route.useLoaderData();
   const [copiedLink, setCopiedLink] = reactExports.useState(false);
   const [scrollProgress, setScrollProgress] = reactExports.useState(0);
   reactExports.useEffect(() => {
@@ -2752,13 +2801,6 @@ function BlogPostPage() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  if (!article) {
-    return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-h-screen bg-background text-foreground flex flex-col items-center justify-center p-6 text-center", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-3xl font-bold mb-3", children: "వ్యాసం లభించలేదు" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-muted-foreground mb-6", children: "మీరు చూస్తున్న కథ లేదా వ్యాసం వేరే పేజీకి మార్చబడి ఉండవచ్చు." }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/blog", className: "px-5 py-2.5 rounded-full bg-rose-600 text-white font-bold text-sm", children: "బ్లాగ్ హోమ్‌పేజీకి వెళ్ళండి" })
-    ] });
-  }
   const relatedArticles = getRelatedBlogArticles(article.slug, 3);
   const copyUrl = () => {
     navigator.clipboard.writeText(window.location.href);
@@ -2766,141 +2808,178 @@ function BlogPostPage() {
     setTimeout(() => setCopiedLink(false), 2e3);
   };
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-h-screen bg-background text-foreground flex flex-col", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx(
-      Seo,
-      {
-        title: `${article.title} | జీవన బంధం`,
-        description: article.metaDescription,
-        url: `https://www.jeevanabandham.online/blog/${article.slug}`,
-        type: "article",
-        breadcrumbs: [
-          { name: "Home", url: "https://www.jeevanabandham.online/" },
-          { name: "Blog", url: "https://www.jeevanabandham.online/blog" },
-          { name: article.title, url: `https://www.jeevanabandham.online/blog/${article.slug}` }
-        ],
-        faqs: article.faqs
-      }
-    ),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(
-      "div",
-      {
-        className: "fixed top-0 left-0 h-1 bg-rose-600 z-50 transition-all duration-150",
-        style: { width: `${scrollProgress}%` }
-      }
-    ),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-rose-600 text-white py-1.5 px-4 text-xs font-medium text-center", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "🚨 అత్యవసర సహాయం & మానసిక సంక్షోభ నివారణకు: " }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:14416", className: "underline font-bold ml-1", children: "Tele-MANAS: 14416 (24/7)" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "mx-2", children: "|" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:112", className: "underline font-bold", children: "112" })
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Seo, { title: `${article.title} | జీవన బంధం`, description: article.metaDescription, url: `https://www.jeevanabandham.online/blog/${article.slug}`, type: "article", breadcrumbs: [{
+      name: "Home",
+      url: "https://www.jeevanabandham.online/"
+    }, {
+      name: "Blog",
+      url: "https://www.jeevanabandham.online/blog"
+    }, {
+      name: article.title,
+      url: `https://www.jeevanabandham.online/blog/${article.slug}`
+    }], faqs: article.faqs }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "fixed top-0 left-0 h-1 bg-rose-600 z-50 transition-all duration-150", style: {
+      width: `${scrollProgress}%`
+    } }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-amber-500/15 border-b border-amber-500/30 px-4 py-2.5 text-center text-xs text-amber-900 dark:text-amber-200 flex items-center justify-center gap-2", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(TriangleAlert, { className: "size-3.5 text-amber-600 shrink-0" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "గమనిక:" }),
+        " ఇది అవగాహన మరియు కౌన్సెలింగ్ సమాచారం మాత్రమే. తక్షణ అత్యవసర వైద్య లేదా పోలీసు సహాయం కోసం ",
+        /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "112" }),
+        " లేదా టెలి-మానస్ ",
+        /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "14416" }),
+        " కు కాల్ చేయండి."
+      ] })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("nav", { className: "sticky top-0 z-40 bg-background/90 backdrop-blur-md border-b border-border", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-4xl mx-auto px-4 sm:px-6 py-3.5 flex items-center justify-between", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/blog", className: "inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold text-muted-foreground hover:text-foreground transition", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowLeft, { className: "h-4 w-4" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "బ్లాగ్ కథలు" })
+    /* @__PURE__ */ jsxRuntimeExports.jsx("header", { className: "sticky top-0 z-40 bg-background/85 backdrop-blur-md border-b border-border/50", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-4xl mx-auto px-4 py-3 flex items-center justify-between", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/blog", className: "inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowLeft, { className: "size-4" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "బ్లాగ్ హోమ్‌పేజీ" })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          "button",
-          {
-            onClick: copyUrl,
-            className: "inline-flex items-center gap-1 text-xs px-3 py-1.5 rounded-full border border-border hover:bg-muted transition",
-            children: [
-              copiedLink ? /* @__PURE__ */ jsxRuntimeExports.jsx(Check, { className: "h-3.5 w-3.5 text-emerald-600" }) : /* @__PURE__ */ jsxRuntimeExports.jsx(Share2, { className: "h-3.5 w-3.5" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: copiedLink ? "లింక్ కాపీ అయింది" : "షేర్ చేయండి" })
-            ]
-          }
-        ),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/support", className: "px-3 py-1.5 rounded-full bg-rose-600 text-white text-xs font-bold hover:bg-rose-700 transition", children: "సహాయం" })
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("button", { onClick: copyUrl, className: "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-muted hover:bg-muted/80 transition-colors", children: [
+          copiedLink ? /* @__PURE__ */ jsxRuntimeExports.jsx(Check, { className: "size-3.5 text-emerald-600" }) : /* @__PURE__ */ jsxRuntimeExports.jsx(Share2, { className: "size-3.5" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: copiedLink ? "లింక్ కాపీ అయింది" : "షేర్ చేయండి" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/support", className: "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-rose-600 text-white hover:bg-rose-700 shadow-sm transition-colors", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "size-3.5" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "SOS సహాయం" })
+        ] })
       ] })
     ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("article", { className: "max-w-3xl w-full mx-auto px-4 sm:px-6 py-10 flex-1", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 mb-4", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 rounded-full bg-rose-100 dark:bg-rose-950/40 text-rose-700 dark:text-rose-300 text-xs font-bold", children: article.category }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-1 text-xs text-muted-foreground font-medium", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(Clock, { className: "h-3.5 w-3.5 ml-2" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { children: [
-            article.readTime,
-            " చదవడం"
-          ] })
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-gradient-to-b from-brand-warm/15 via-background to-background pt-10 pb-8 px-4 border-b border-border/40", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-4xl mx-auto", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { "aria-label": "Breadcrumb", className: "mb-4 flex items-center gap-2 text-xs text-muted-foreground", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", className: "hover:text-foreground", children: "హోమ్" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "size-3" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/blog", className: "hover:text-foreground", children: "బ్లాగ్" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "size-3" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-foreground truncate max-w-[200px]", children: article.title })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap items-center gap-2 mb-4", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "px-3 py-1 rounded-full text-xs font-bold bg-rose-600/10 text-rose-600 border border-rose-600/20", children: article.category }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-xs text-muted-foreground flex items-center gap-1", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Clock, { className: "size-3" }),
+          article.readTime
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-xs text-muted-foreground flex items-center gap-1", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Calendar, { className: "size-3" }),
+          article.date
         ] })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-2xl sm:text-4xl font-extrabold text-foreground tracking-tight leading-snug", children: article.title }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm sm:text-base text-muted-foreground mt-3 leading-relaxed", children: article.subtitle }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between py-4 my-6 border-y border-border text-xs text-muted-foreground", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "h-8 w-8 rounded-full bg-rose-100 dark:bg-rose-950/50 text-rose-600 flex items-center justify-center font-bold", children: "జీ" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-3xl md:text-5xl font-extrabold text-foreground tracking-tight leading-tight mb-4 font-display", children: article.title }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-base md:text-xl text-muted-foreground leading-relaxed mb-6 font-medium", children: article.subtitle }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3 pt-4 border-t border-border/50", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "size-11 rounded-full bg-rose-600/10 text-rose-600 border border-rose-600/20 flex items-center justify-center font-bold text-sm", children: /* @__PURE__ */ jsxRuntimeExports.jsx(ShieldCheck, { className: "size-6" }) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-sm font-bold text-foreground", children: article.author.name }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-xs text-muted-foreground", children: article.author.role })
+        ] })
+      ] })
+    ] }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("main", { className: "max-w-4xl mx-auto px-4 py-10 flex-1 w-full grid grid-cols-1 lg:grid-cols-12 gap-10", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("article", { className: "lg:col-span-8 space-y-8", children: [
+        article.targetToolLink && article.targetToolName && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-5 rounded-3xl bg-brand-primary/10 border border-brand-primary/20 flex flex-col sm:flex-row sm:items-center justify-between gap-4", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-bold text-foreground", children: article.author.name }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[11px]", children: article.author.role })
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "inline-flex items-center gap-1.5 text-xs font-bold text-brand-primary uppercase tracking-wider mb-1", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(Sparkles, { className: "size-3.5" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "సంబంధిత ఉచిత సాధనం" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-bold text-base text-foreground", children: article.targetToolName })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: article.targetToolLink, className: "px-5 py-2.5 rounded-full bg-brand-primary text-primary-foreground font-bold text-xs shadow-warm hover:scale-105 active:scale-95 transition-all text-center shrink-0 flex items-center justify-center gap-2", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఇప్పుడే ఉపయోగించండి" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "size-3.5" })
           ] })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-right", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-          "అప్‌డేట్: ",
-          article.date
-        ] }) })
-      ] }),
-      article.targetToolLink && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 sm:p-5 rounded-2xl bg-rose-50 dark:bg-rose-950/30 border border-rose-200 dark:border-rose-900/60 mb-8 flex flex-col sm:flex-row sm:items-center justify-between gap-3", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-bold text-rose-900 dark:text-rose-200 text-sm", children: "ఈ విషయానికి సంబంధించిన ప్రత్యేక వేదిక:" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-xs text-rose-700 dark:text-rose-300 mt-0.5", children: "సమగ్ర మార్గదర్శకాలు మరియు చెక్‌లిస్ట్‌ల కోసం చూడండి." })
+        article.tableOfContents && article.tableOfContents.length > 0 && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6 rounded-3xl bg-card border border-border/60 shadow-sm space-y-3", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 font-bold text-base text-foreground", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(BookOpen, { className: "size-4 text-rose-600" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "విషయ సూచిక (Table of Contents)" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2 text-sm", children: article.tableOfContents.map((item, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-2", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "font-mono text-xs text-muted-foreground mt-0.5", children: [
+              idx + 1,
+              "."
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: `#${item.id}`, className: "text-muted-foreground hover:text-rose-600 transition-colors leading-relaxed", children: item.title })
+          ] }, item.id)) })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          Link,
-          {
-            to: article.targetToolLink,
-            className: "px-4 py-2 rounded-xl bg-rose-600 text-white text-xs font-bold hover:bg-rose-700 transition inline-flex items-center justify-center gap-1 shrink-0",
-            children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: article.targetToolName }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "h-3.5 w-3.5" })
-            ]
-          }
-        )
-      ] }),
-      article.tableOfContents && article.tableOfContents.length > 0 && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-5 rounded-2xl bg-card border border-border mb-8", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "font-bold text-foreground text-sm mb-3 flex items-center gap-2", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(BookOpen, { className: "h-4 w-4 text-rose-600" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "విషయ సూచిక (Table of Contents)" })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "prose prose-slate dark:prose-invert max-w-none prose-headings:font-display prose-headings:font-bold prose-p:leading-relaxed prose-a:text-rose-600 prose-a:no-underline hover:prose-a:underline", children: article.content }),
+        article.faqs && article.faqs.length > 0 && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "pt-8 border-t border-border/60 space-y-6", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 font-display text-2xl font-bold text-foreground", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(CircleQuestionMark, { className: "size-6 text-rose-600" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "తరచూ అడిగే ప్రశ్నలు (FAQ)" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-4", children: article.faqs.map((faq, i) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-5 rounded-2xl bg-card border border-border/60 space-y-2 shadow-sm", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "font-bold text-base text-foreground flex items-start gap-2", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-rose-600 font-mono font-bold", children: "Q:" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: faq.question })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground leading-relaxed pl-6", children: faq.answer })
+          ] }, i)) })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-1.5 text-xs", children: article.tableOfContents.map((toc) => /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: `#${toc.id}`, className: "text-muted-foreground hover:text-rose-600 transition flex items-center gap-1.5", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-rose-500", children: "•" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: toc.title })
-        ] }) }, toc.id)) })
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "pt-6 border-t border-border/40 flex flex-wrap items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs font-semibold text-muted-foreground mr-1", children: "కీలక అంశాలు:" }),
+          article.tags.map((tag) => /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "px-3 py-1 rounded-full text-xs bg-muted text-muted-foreground font-medium", children: [
+            "#",
+            tag
+          ] }, tag))
+        ] })
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "prose prose-slate dark:prose-invert max-w-none text-sm sm:text-base", children: article.content }),
-      article.faqs && article.faqs.length > 0 && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { id: "faqs", className: "mt-12 pt-8 border-t border-border", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-bold text-foreground mb-4 flex items-center gap-2", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleQuestionMark, { className: "h-5 w-5 text-rose-600" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "తరచుగా అడిగే ప్రశ్నలు (Frequently Asked Questions)" })
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("aside", { className: "lg:col-span-4 space-y-6", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6 rounded-3xl bg-rose-600 text-white space-y-4 shadow-warm", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 font-bold text-lg", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "size-5" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "అత్యవసర హెల్ప్‌లైన్లు" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs leading-relaxed opacity-95", children: "మీరు లేదా మీకు తెలిసినవారు సంక్షోభంలో ఉన్నారా? ప్రభుత్వ ఉచిత జాతీయ హెల్ప్‌లైన్‌లను 24/7 సంప్రదించండి:" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-2 pt-2", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "tel:14416", className: "w-full flex items-center justify-between p-3 rounded-2xl bg-white/10 hover:bg-white/20 transition-colors text-sm font-bold", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "టెలి-మానస్ (మానసిక ఆరోగ్యం)" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-mono underline", children: "14416" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "tel:112", className: "w-full flex items-center justify-between p-3 rounded-2xl bg-white/10 hover:bg-white/20 transition-colors text-sm font-bold", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "జాతీయ ఎమర్జెన్సీ" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-mono underline", children: "112" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "tel:1098", className: "w-full flex items-center justify-between p-3 rounded-2xl bg-white/10 hover:bg-white/20 transition-colors text-sm font-bold", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "చైల్డ్‌లైన్ (పిల్లల రక్షణ)" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-mono underline", children: "1098" })
+            ] }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "tel:181", className: "w-full flex items-center justify-between p-3 rounded-2xl bg-white/10 hover:bg-white/20 transition-colors text-sm font-bold", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "మహిళా హెల్ప్‌లైన్" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-mono underline", children: "181" })
+            ] })
+          ] })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-4", children: article.faqs.map((faq, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-card border border-border", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "font-bold text-foreground text-sm mb-1.5", children: faq.question }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs sm:text-sm text-muted-foreground leading-relaxed", children: faq.answer })
-        ] }, idx)) })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-12 pt-8 border-t border-border", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-lg font-bold text-foreground mb-4", children: "మరిన్ని ముఖ్యమైన కథనాలు" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid sm:grid-cols-3 gap-4", children: relatedArticles.map((rel) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          Link,
-          {
-            to: `/blog/${rel.slug}`,
-            className: "p-4 rounded-2xl bg-card border border-border hover:border-rose-400 transition-all group flex flex-col justify-between",
-            children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-[10px] font-bold text-rose-600 uppercase tracking-wider", children: rel.category.split(" ")[0] }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "text-xs font-bold text-foreground group-hover:text-rose-600 transition mt-1 line-clamp-2", children: rel.title })
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-[11px] text-rose-600 font-bold mt-3 flex items-center justify-between", children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "చదవండి" }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "→" })
-              ] })
-            ]
-          },
-          rel.slug
-        )) })
+        relatedArticles.length > 0 && /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6 rounded-3xl bg-card border border-border/60 shadow-sm space-y-4", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "font-bold text-base text-foreground flex items-center gap-2", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(BookOpen, { className: "size-4 text-rose-600" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "సంబంధిత కథనాలు" })
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-3", children: relatedArticles.map((rel) => /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/blog/$slug", params: {
+            slug: rel.slug
+          }, className: "block p-3 rounded-2xl hover:bg-muted/50 transition-colors group", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[11px] font-bold text-rose-600 mb-1", children: rel.category }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-sm font-bold text-foreground group-hover:text-rose-600 transition-colors line-clamp-2 leading-snug", children: rel.title }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-xs text-muted-foreground mt-1 flex items-center gap-1", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(Clock, { className: "size-3" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: rel.readTime })
+            ] })
+          ] }, rel.slug)) })
+        ] })
       ] })
     ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "border-t border-border bg-card py-8 px-4 sm:px-6 text-center text-xs text-muted-foreground", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "జీవన బంధం — జీవితాన్ని కాపాడే కుటుంబ సహాయ వేదిక. సంక్షోభ సమయంలో అండగా ఉంటాం." }) })
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-brand-warm/10 border-t border-border/40 py-12 px-4 text-center", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-2xl mx-auto space-y-4", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Heart, { className: "size-8 text-rose-600 mx-auto fill-current" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-bold font-display text-foreground", children: "ప్రతి బంధం ఒక జీవితం... ప్రతి జీవితం విలువైనది" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground leading-relaxed", children: "జీవన బంధం తెలుగు కుటుంబాలకు, మహిళలకు, పిల్లలకు సహాయపడేందుకు సదా సిద్ధంగా ఉంది." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "pt-2 flex flex-wrap justify-center gap-3", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/support", className: "px-6 py-3 rounded-full bg-rose-600 text-white font-bold text-sm shadow hover:bg-rose-700 transition", children: "ఉచిత కౌన్సెలింగ్ వివరాలు" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/blog", className: "px-6 py-3 rounded-full bg-muted font-bold text-sm hover:bg-muted/80 transition", children: "మరిన్ని ఆర్టికల్స్ చదవండి" })
+      ] })
+    ] }) })
   ] });
 }
 const VasusStoryRoute = Route$8.update({
