@@ -2132,6 +2132,116 @@ const ALL_BLOG_ARTICLES = [
         ] })
       ] })
     ] })
+  },
+  // వివాహానికి ముందు భావోద్వేగ అనుకూలత (Emotional Compatibility): జీవిత భాగస్వామిని ఎంచుకునే ముందు చర్చించవలసిన 7 కీలక అంశాలు
+  {
+    id: "pre-marriage-emotional-compatibility-guide-telugu",
+    slug: "pre-marriage-emotional-compatibility-guide-telugu",
+    title: "వివాహానికి ముందు భావోద్వేగ అనుకూలత (Emotional Compatibility): జీవిత భాగస్వామిని ఎంచుకునే ముందు చర్చించవలసిన 7 కీలక అంశాలు",
+    titleEn: "Pre-Marriage Emotional Compatibility Guide: 7 Essential Conversations Telugu Couples Must Have Before Marriage",
+    subtitle: "కేవలం జాతకాలు, ఉద్యోగం మాత్రమే కాకుండా మనస్తత్వాలు కలుస్తున్నాయా? భావోద్వేగ పరిపక్వతను గుర్తించే మార్గాలు, ఆలోచనల అనుకూలత మరియు వివాహ పూర్వ కౌన్సెలింగ్ సలహాలు.",
+    category: "ప్రీ-మ్యారేజ్ గైడ్ (Pre-Marriage)",
+    status: "published",
+    readTime: "8 నిమిషాలు",
+    date: "నవంబర్ 2026",
+    updatedDate: "2026-11-27",
+    author: {
+      name: "జీవన బంధం ఎడిటోరియల్ & కౌన్సెలింగ్ బోర్డు",
+      role: "సీనియర్ ఫ్యామిలీ కౌన్సెలర్"
+    },
+    primaryKeyword: "వివాహానికి ముందు భావోద్వేగ అనుకూలత",
+    secondaryKeywords: ["pre marriage emotional compatibility telugu", "వివాహ పూర్వ కౌన్సెలింగ్ తెలుగు", "జీవిత భాగస్వామి ఎంపిక ఎలా", "emotional maturity before marriage telugu", "పెళ్లికి ముందు తెలుసుకోవలసిన విషయాలు"],
+    searchIntent: "Compassionate Counseling & Practical Guidance",
+    tags: ["కుటుంబం", "కౌన్సెలింగ్", "Pre-Marriage", "మానసిక ఆరోగ్యం", "జీవన బంధం"],
+    excerpt: "వివాహ బంధం జీవితాంతం నిలబడాలంటే భావోద్వేగ అనుకూలత ఎంత అవసరం? పెళ్లికి ముందు ఇరువైపులా చర్చించుకోవలసిన కీలక విషయాలు మరియు అనుబంధాన్ని పెంచే కౌన్సెలింగ్ సూత్రాలు.",
+    metaDescription: "వివాహానికి ముందు భావోద్వేగ అనుకూలత (Emotional Compatibility) ఎలా పరీక్షించుకోవాలి? వివాహ పూర్వ కౌన్సెలింగ్, ఆలోచనల అనుబంధం మరియు శాశ్వత దాంపత్య సూత్రాలు.",
+    canonicalUrl: "https://www.jeevanabandham.online/blog/pre-marriage-emotional-compatibility-guide-telugu",
+    targetToolLink: "/pre-marriage",
+    targetToolName: "వివాహ పూర్వ కౌన్సెలింగ్ & సంసిద్ధత",
+    tableOfContents: [{ "id": "why-emotional-compatibility-matters", "title": "1. దాంపత్యంలో భావోద్వేగ అనుకూలత (Emotional Compatibility) ఎందుకు అత్యంత కీలకం?" }, { "id": "signs-of-emotional-maturity", "title": "2. జీవిత భాగస్వామిలో భావోద్వేగ పరిపక్వతను (Emotional Maturity) ఎలా గుర్తించాలి?" }, { "id": "critical-conversations-before-marriage", "title": "3. పెళ్లికి ముందు తప్పనిసరిగా చర్చించవలసిన 7 కీలక అంశాలు" }, { "id": "handling-differences-constructively", "title": "4. అభిప్రాయ భేదాలు వచ్చినప్పుడు ఆరోగ్యకరమైన సంభాషణ నియమాలు" }, { "id": "pre-marital-counseling-role", "title": "5. వివాహ పూర్వ కౌన్సెలింగ్ (Pre-Marriage Counseling) ప్రాధాన్యత మరియు మార్గదర్శకాలు" }],
+    faqs: [{ "question": "వివాహానికి ముందు భావోద్వేగ అనుకూలతను ఎలా పరీక్షించుకోవాలి?", "answer": "వివిధ పరిస్థితులలో (సంతోషం, ఒత్తిడి, సమస్యలు ఎదురైనప్పుడు) భాగస్వామి ఆలోచించే తీరు, నిర్ణయాలు తీసుకునే విధానం మరియు ఒకరి భావాలను మరొకరు ఎంతవరకు గౌరవిస్తున్నారో సంభాషణల ద్వారా గమనించడం ద్వారా తెలుసుకోవచ్చు." }, { "question": "ఆలోచనలు పూర్తిగా భిన్నంగా ఉంటే వివాహం చేసుకోవచ్చా?", "answer": "అభిరుచులు వేరుగా ఉన్నా పరస్పర గౌరవం, ఒకరికొకరు రాజీ పడగలిగే గుణం (Compromise & Respect) ఉంటే దాంపత్యం విజయవంతమవుతుంది. కానీ ప్రాథమిక జీవిత విలువలు, నైతికతలలో తీవ్ర వ్యత్యాసాలు ఉంటే వివాహ పూర్వ కౌన్సెలింగ్ ద్వారా స్పష్టత పొందడం మంచిది." }],
+    relatedSlugs: ["pre-marriage-10-things-to-know", "7-ways-to-reduce-husband-wife-conflicts"],
+    content: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6 text-slate-800 dark:text-slate-200 leading-relaxed", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6 rounded-3xl bg-amber-500/10 border border-amber-500/30 text-amber-950 dark:text-amber-100 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 font-bold text-lg text-amber-800 dark:text-amber-300", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Heart, { className: "h-5 w-5 text-amber-600 fill-current" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "జీవన బంధం మార్గదర్శక సందేశం" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm leading-relaxed", children: "ప్రతి బంధంలోనూ సమస్యలు సహజం. వాటిని విమర్శలతో కాకుండా, ప్రేమతో, శాస్త్రీయ కౌన్సెలింగ్ విధానాలతో పరిష్కరించుకోవచ్చు. మీరు లేదా మీ ప్రియమైనవారు బాధపడుతుంటే వెంటనే సహాయం పొందండి." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "why-emotional-compatibility-matters", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "1. దాంపత్యంలో భావోద్వేగ అనుకూలత (Emotional Compatibility) ఎందుకు అత్యంత కీలకం?" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "వివాహం అనేది కేవలం ఇద్దరు వ్యక్తుల కలయిక మాత్రమే కాదు, రెండు విభిన్న మనస్తత్వాలు, ఆలోచనల ప్రయాణం. బాహ్య అందం, సంపాదన లేదా సామాజిక హోదా ప్రాథమిక ఆకర్షణను కలిగించవచ్చు, కానీ కష్ట సమయాల్లో ఒకరికొకరు తోడుగా నిలిచేది భావోద్వేగ అనుకూలత మాత్రమే. ఒకరి భావాలను మరొకరు గౌరవించడం, బాధను అర్థం చేసుకోవడం మరియు నిరభ్యంతరంగా మనసులోని భావాలను పంచుకోగలగడం ఈ అనుకూలతకు నిదర్శనాలు." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "భావోద్వేగ బంధం సూత్రం" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "పెళ్లి చూపులు లేదా నిశ్చితార్థం తర్వాత కేవలం పైపై విషయాలకే పరిమితం కాకుండా, ఒకరి విలువలు, కోపతాపాలు, జీవిత ప్రాధాన్యతలపై నిజాయితీగా సంభాషణ ప్రారంభించండి." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "signs-of-emotional-maturity", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "2. జీవిత భాగస్వామిలో భావోద్వేగ పరిపక్వతను (Emotional Maturity) ఎలా గుర్తించాలి?" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "భావోద్వేగ పరిపక్వత ఉన్న వ్యక్తి తన తప్పులను ఒప్పుకోగలడు, విభేదాలు వచ్చినప్పుడు సంయమనంతో మాట్లాడతాడు మరియు భాగస్వామిపై అనవసర నిందలు వేయడు. చిన్న సమస్యలకే అలకబూనడం, రోజుల తరబడి మాట్లాడకుండా ఉండటం (Silent Treatment) లేదా తీవ్రమైన భావోద్వేగ ఆవేశాలకు గురికావడం అపరిపక్వతకు సంకేతాలు. పరస్పర సహనం, తాదాత్మ్యం (Empathy) ఉన్నప్పుడే వైవాహిక జీవితం శాంతియుతంగా సాగుతుంది." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "పరిపక్వత గుర్తింపు చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ఎదుటి వ్యక్తి ఒత్తిడిలో లేదా కోపంలో ఉన్నప్పుడు ఎలా ప్రవర్తిస్తున్నారో గమనించండి. కష్ట సమయాల్లో సహనం చూపేవారు దాంపత్య జీవితంలోనూ గొప్ప భాగస్వామిగా ఉంటారు." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "critical-conversations-before-marriage", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "3. పెళ్లికి ముందు తప్పనిసరిగా చర్చించవలసిన 7 కీలక అంశాలు" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "వివాహానికి సిద్ధమయ్యే యువతీయువకులు కెరీర్ లక్ష్యాలు, ఉమ్మడి లేదా వ్యక్తిగత కుటుంబ బాధ్యతలు, ఆర్థిక ప్రణాళికలు, పిల్లల పెంపకంపై ఆలోచనలు, వ్యక్తిగత స్వేచ్ఛ మరియు సరిహద్దులు (Personal Boundaries), కోపం నిర్వహణ విధానం మరియు కష్టాల్లో ఒకరికొకరు ఇచ్చే మానసిక భరోసా గురించి స్పష్టంగా మాట్లాడుకోవాలి. ఈ విషయాలలో ముందస్తు స్పష్టత లేకపోతే భవిష్యత్తులో తీవ్రమైన అపార్థాలు తలెత్తుతాయి." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ముందస్తు స్పష్టత చెక్‌లిస్ట్" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "పెళ్లికి ముందు ఇరువైపులా మనసులో ఉన్న సందేహాలు, భయాలను దాచుకోకుండా ఒక నోట్‌బుక్‌లో రాసుకుని స్నేహపూర్వక వాతావరణంలో చర్చించుకోండి." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "handling-differences-constructively", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "4. అభిప్రాయ భేదాలు వచ్చినప్పుడు ఆరోగ్యకరమైన సంభాషణ నియమాలు" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ప్రతి జంట మధ్య విభేదాలు రావడం సహజం. అయితే ఆ విభేదాలను ఎలా పరిష్కరించుకుంటున్నామనేదే బంధం యొక్క బలాన్ని నిర్ణయిస్తుంది. వాదనలలో గెలవడం ముఖ్యం కాదు, సంబంధాన్ని కాపాడుకోవడం ముఖ్యం అనే స్పృహ ఉండాలి. ఎదుటి వ్యక్తి మాట్లాడుతున్నప్పుడు అడ్డుపడకుండా శ్రద్ధగా వినడం, 'నువ్వు ఎప్పుడూ ఇంతే' వంటి నిందారోపణలు చేయకుండా 'నాకు ఇలా అనిపిస్తోంది' (I-statements) అనే పద్ధతిలో మాట్లాడటం ఎంతో మేలు చేస్తుంది." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఆరోగ్యకరమైన వాదన నియమం" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "కోపం వచ్చిన వెంటనే స్పందించకుండా 10 సెకన్ల పాటు శ్వాస తీసుకుని, ప్రశాంతమైన స్వరంతో మీ అభిప్రాయాన్ని సున్నితంగా వివరించండి." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "pre-marital-counseling-role", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "5. వివాహ పూర్వ కౌన్సెలింగ్ (Pre-Marriage Counseling) ప్రాధాన్యత మరియు మార్గదర్శకాలు" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "వివాహ పూర్వ కౌన్సెలింగ్ అనేది సమస్యలు ఉన్నవారికే కాదు, తమ వైవాహిక జీవితానికి బలమైన పునాది వేసుకోవాలనుకునే ప్రతి జంటకూ అత్యంత ఉపయోగకరమైన సాధనం. నిపుణులైన కౌన్సెలర్ల సమక్షంలో భాగస్వాముల ఆలోచనా సరళి, కమ్యూనికేషన్ పద్ధతులు, ఒత్తిడి నిర్వహణలను శాస్త్రీయంగా విశ్లేషించి సరైన మార్గదర్శకత్వం పొందవచ్చు. ఇది భవిష్యత్తులో వచ్చే అనేక వైవాహిక కలతలను నివారిస్తుంది." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "కౌన్సెలింగ్ తోడ్పాటు" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "జీవన బంధం అందించే ఉచిత ప్రీ-మ్యారేజ్ కౌన్సెలింగ్ టూల్స్ ఉపయోగించండి లేదా జాతీయ హెల్ప్‌లైన్ Tele-MANAS (14416) ద్వారా నిపుణుల ఉచిత మార్గదర్శకత్వం పొందండి." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-8 p-6 rounded-3xl bg-brand-primary/10 border border-brand-primary/30 space-y-3", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-bold text-brand-primary flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "h-5 w-5" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "తక్షణ అత్యవసర సహాయం & కౌన్సెలింగ్" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-700 dark:text-slate-300", children: "మీరు తీవ్రమైన మానసిక ఆందోళనలో ఉన్నారా? ప్రభుత్వ ఉచిత జాతీయ హెల్ప్‌లైన్లను ఇప్పుడే సంప్రదించండి:" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-3 pt-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:14416", className: "px-4 py-2 bg-brand-primary text-white font-bold rounded-xl text-sm shadow hover:opacity-90 transition", children: "📞 Tele-MANAS: 14416 (24/7 తెలుగు)" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:112", className: "px-4 py-2 bg-rose-600 text-white font-bold rounded-xl text-sm shadow hover:bg-rose-700 transition", children: "🚨 జాతీయ ఎమర్జెన్సీ: 112" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:1098", className: "px-4 py-2 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow hover:bg-indigo-700 transition", children: "🛡️ చైల్డ్‌లైన్: 1098" })
+        ] })
+      ] })
+    ] })
   }
 ];
 function getBlogArticleBySlug(slug) {
@@ -2247,7 +2357,7 @@ const Route$4 = createFileRoute("/child-protection")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./index-DCcyJtpB.mjs");
+const $$splitComponentImporter$1 = () => import("./index-BR-gBoEz.mjs");
 const Route$3 = createFileRoute("/")({
   head: () => ({
     meta: [{
@@ -2785,7 +2895,7 @@ const stories = [
     ] })
   }
 ];
-const $$splitComponentImporter = () => import("../_storyId-Z8dcoa28.mjs");
+const $$splitComponentImporter = () => import("../_storyId-CNNWtQeY.mjs");
 const Route$1 = createFileRoute("/stories/$storyId")({
   loader: ({
     params
