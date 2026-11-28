@@ -2242,6 +2242,116 @@ const ALL_BLOG_ARTICLES = [
         ] })
       ] })
     ] })
+  },
+  // దాంపత్య జీవితంలో కోపం & ఆవేశం నిర్వహణ (Anger Management): క్షణికావేశంలో బంధాలు తెగిపోకుండా కాపాడుకునే 7 శాస్త్రీయ మార్గాలు
+  {
+    id: "anger-management-in-marriage-and-family-counseling-telugu",
+    slug: "anger-management-in-marriage-and-family-counseling-telugu",
+    title: "దాంపత్య జీవితంలో కోపం & ఆవేశం నిర్వహణ (Anger Management): క్షణికావేశంలో బంధాలు తెగిపోకుండా కాపాడుకునే 7 శాస్త్రీయ మార్గాలు",
+    titleEn: "Anger Management in Marriage and Family: 7 Psychological Steps to Control Anger and Protect Relationships",
+    subtitle: "కోపం సహజమే కానీ దానిని వ్యక్తీకరించే పద్ధతి బంధాలను నిర్ణయిస్తుంది. క్షణికావేశంలో తీసుకునే నిర్ణయాలు, దూషణల వల్ల కుటుంబాలు విచ్ఛిన్నం కాకుండా ఉండటానికి కౌన్సెలింగ్ పరిష్కారాలు.",
+    category: "కుటుంబ కౌన్సెలింగ్ (Family Counseling)",
+    status: "published",
+    readTime: "9 నిమిషాలు",
+    date: "నవంబర్ 2026",
+    updatedDate: "2026-11-28",
+    author: {
+      name: "జీవన బంధం ఎడిటోరియల్ & కౌన్సెలింగ్ బోర్డు",
+      role: "సీనియర్ ఫ్యామిలీ కౌన్సెలర్"
+    },
+    primaryKeyword: "దాంపత్య జీవితంలో కోపం నిర్వహణ",
+    secondaryKeywords: ["anger management in marriage telugu", "కుటుంబంలో కోపం తగ్గించుకోవడం", "భార్యాభర్తల గొడవలు కోపం నివారణ", "family counselling telugu", "కోపం నియంత్రణ చిట్కాలు"],
+    searchIntent: "Compassionate Counseling & Practical Guidance",
+    tags: ["కుటుంబం", "కౌన్సెలింగ్", "Family Counseling", "మానసిక ఆరోగ్యం", "జీవన బంధం"],
+    excerpt: "దాంపత్యంలో మరియు కుటుంబంలో కోపం నియంత్రణ తప్పినప్పుడు కలిగే నష్టాలు ఏమిటి? క్షణికావేశాన్ని అదుపులో ఉంచుకుని, శాంతియుతంగా సమస్యలను పరిష్కరించుకోవడానికి మానసిక నిపుణులు సూచించే 7 గోల్డెన్ రూల్స్.",
+    metaDescription: "దాంపత్య జీవితంలో కోపం, ఆవేశం నిర్వహణ (Anger Management) ఎలా చేయాలి? భార్యాభర్తల గొడవలు, క్షణికావేశ నివారణ మరియు కుటుంబ శాంతికి 7 ఆచరణాత్మక కౌన్సెలింగ్ సూత్రాలు.",
+    canonicalUrl: "https://www.jeevanabandham.online/blog/anger-management-in-marriage-and-family-counseling-telugu",
+    targetToolLink: "/support",
+    targetToolName: "కుటుంబ కౌన్సెలింగ్ & ఉచిత మానసిక మద్దతు",
+    tableOfContents: [{ "id": "why-anger-destroys-relationships", "title": "1. దాంపత్యంలో కోపం ఎందుకు విషంగా మారుతుంది? (The Psychological Cost of Unchecked Anger)" }, { "id": "signs-of-toxic-anger", "title": "2. మీ కుటుంబంలో లేదా భాగస్వామిలో కనిపించే తీవ్ర కోప లక్షణాలు (Warning Signs of Chronic Anger)" }, { "id": "7-steps-to-manage-anger", "title": "3. దాంపత్యంలో కోపాన్ని అదుపులో ఉంచుకోవడానికి 7 ఆచరణాత్మక మార్గాలు (7 Practical Steps for Anger Management)" }, { "id": "impact-on-children-and-atmosphere", "title": "4. తల్లిదండ్రుల కోపం పిల్లల మానసిక వికాసంపై చూపే తీవ్ర ప్రభావం" }, { "id": "when-to-seek-professional-counseling", "title": "5. ప్రొఫెషనల్ కౌన్సెలింగ్ ఎప్పుడు అవసరం? (When to Consult a Family Counselor)" }],
+    faqs: [{ "question": "కోపం వచ్చినప్పుడు వెంటనే స్పందించకుండా ఎలా ఆపుకోవాలి?", "answer": "కోపం రాగానే 1 నుంచి 10 వరకు అంకెలు లెక్కబెట్టడం, గ్లాసుడు మంచినీళ్లు తాగడం లేదా ప్రశాంతంగా కొన్ని నిమిషాలు గది బయటకు వెళ్లి నడవడం వంటివి మీ నాడీ వ్యవస్థను ప్రశాంతపరుస్తాయి. దీనివల్ల క్షణికావేశంలో మాట్లాడే ప్రమాదం తప్పుతుంది." }, { "question": "భాగస్వామి విపరీతమైన కోపంలో ఉన్నప్పుడు ఎలా వ్యవహరించాలి?", "answer": "ఎదుటి వ్యక్తి కోపంగా ఉన్నప్పుడు ఎదురుదాడి చేయవద్దు. మౌనంగా ఉంటూ వారి మాటలను వినండి. వారి కోపం తగ్గాక, ఇద్దరూ ప్రశాంతంగా ఉన్న సమయంలో మీ భావాలను నెమ్మదిగా పంచుకోండి." }, { "question": "కోపం నియంత్రణకు కౌన్సెలింగ్ ఎలా సహాయపడుతుంది?", "answer": "కోపం వెనుక ఉన్న అంతర్గత కారణాలు (గత గాయాలు, ఒత్తిడి, నిరాశ) గుర్తించి, కాగ్నిటివ్ బిహేవియరల్ థెరపీ (CBT) మరియు మైండ్‌ఫుల్‌నెస్ పద్ధతుల ద్వారా కోపాన్ని ఆరోగ్యకరంగా నియంత్రించుకోవడానికి కౌన్సెలింగ్ సహాయపడుతుంది." }],
+    relatedSlugs: ["pre-marriage-10-things-to-know", "7-ways-to-reduce-husband-wife-conflicts"],
+    content: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6 text-slate-800 dark:text-slate-200 leading-relaxed", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6 rounded-3xl bg-amber-500/10 border border-amber-500/30 text-amber-950 dark:text-amber-100 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 font-bold text-lg text-amber-800 dark:text-amber-300", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Heart, { className: "h-5 w-5 text-amber-600 fill-current" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "జీవన బంధం మార్గదర్శక సందేశం" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm leading-relaxed", children: "ప్రతి బంధంలోనూ సమస్యలు సహజం. వాటిని విమర్శలతో కాకుండా, ప్రేమతో, శాస్త్రీయ కౌన్సెలింగ్ విధానాలతో పరిష్కరించుకోవచ్చు. మీరు లేదా మీ ప్రియమైనవారు బాధపడుతుంటే వెంటనే సహాయం పొందండి." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "why-anger-destroys-relationships", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "1. దాంపత్యంలో కోపం ఎందుకు విషంగా మారుతుంది? (The Psychological Cost of Unchecked Anger)" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "కోపం అనేది ఒక సహజమైన మానవ భావోద్వేగం. ఏదైనా అన్యాయం జరిగినప్పుడు లేదా మన అంచనాలు తలకిందులైనప్పుడు కోపం రావడం అసహజం కాదు. కానీ దాంపత్య జీవితంలో ఆ కోపాన్ని మాటల దాడిగా, చేతల హింసగా లేదా నిరంతర నిందారోపణలుగా మార్చినప్పుడు బంధం తీవ్రంగా దెబ్బతింటుంది. క్షణికావేశంలో అన్న ఒక్క కఠినమైన మాట జీవిత భాగస్వామి మనసులో ఎన్నటికీ మానని గాయాన్ని మిగిల్చవచ్చు. కోపాన్ని అదుపులో ఉంచుకోకపోతే క్రమంగా ప్రేమ, గౌరవం, పరస్పర నమ్మకం కనుమరుగైపోతాయి." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "భావోద్వేగ అవగాహన సూత్రం" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "కోపం అనేది ప్రాథమిక భావోద్వేగం కాదు; దాని వెనుక దాగి ఉన్న అసంతృప్తి, గాయం, భయం లేదా నిస్సహాయతను గుర్తించండి." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "signs-of-toxic-anger", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "2. మీ కుటుంబంలో లేదా భాగస్వామిలో కనిపించే తీవ్ర కోప లక్షణాలు (Warning Signs of Chronic Anger)" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "ఆరోగ్యకరమైన కోపానికి, విషపూరితమైన ఆవేశానికి చాలా తేడా ఉంది. చిన్న విషయాలకే అరిచి గగ్గోలు పెట్టడం, వస్తువులను విసిరివేయడం, అసభ్య పదజాలంతో దూషించడం, గతంలో జరిగిన పొరపాట్లను మళ్లీ మళ్లీ ఎత్తిచూపడం, రోజుల తరబడి మాట్లాడకుండా కక్ష సాధించడం (Passive Aggression) క్రానిక్ యాంగర్ లక్షణాలు. ఈ ప్రవర్తన కుటుంబంలో ఒక భయానక వాతావరణాన్ని సృష్టిస్తుంది. ముఖ్యంగా పిల్లలపై ఇది తీవ్రమైన మానసిక ఒత్తిడిని కలిగిస్తుంది." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ముందస్తు హెచ్చరిక గుర్తింపు" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "మీరు లేదా మీ భాగస్వామి కోపం వచ్చినప్పుడు చేతులు వణకడం, గుండె వేగంగా కొట్టుకోవడం లేదా నియంత్రణ కోల్పోతున్నట్లు అనిపిస్తే వెంటనే ఆ ప్రదేశం నుంచి కొద్దిసేపు దూరంగా వెళ్లండి." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "7-steps-to-manage-anger", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "3. దాంపత్యంలో కోపాన్ని అదుపులో ఉంచుకోవడానికి 7 ఆచరణాత్మక మార్గాలు (7 Practical Steps for Anger Management)" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "మొదటిది 10 సెకన్ల నియమం (The 10-Second Pause): కోపం నషాలానికి ఎక్కినప్పుడు వెంటనే మాట్లాడకుండా దీర్ఘ శ్వాస తీసుకోండి. రెండవది టైమ్-అవుట్ తీసుకోవడం (Take a Time-Out): 'నేను ప్రస్తుతం చాలా కోపంగా ఉన్నాను, ప్రశాంతంగా మాట్లాడటానికి నాకు 20 నిమిషాలు సమయం కావాలి' అని స్పష్టంగా చెప్పండి. మూడవది నిందల స్థానంలో భావాలు వ్యక్తపరచడం (Use 'I' Statements): 'నువ్వు ఎప్పుడూ ఇలాగే చేస్తావు' అనడానికి బదులు 'నువ్వు ఆలస్యంగా వచ్చినప్పుడు నాకు ఆందోళన కలిగింది' అని చెప్పండి. నాల్గవది పరిష్కారంపై దృష్టి పెట్టడం: గతాన్ని తవ్వకుండా ప్రస్తుత సమస్యకు మాత్రమే పరిమితం కావడం. ఐదవది శారీరక వ్యాయామం లేదా నడక: ఒత్తిడి హార్మోన్ల స్థాయిలను తగ్గించడానికి నడవడం. ఆరవది తాదాత్మ్యం (Empathy): భాగస్వామి కోణంలో నుంచి పరిస్థితిని చూడటం. ఏడవది క్షమాగుణం మరియు ముందుకు సాగడం." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "టైమ్-అవుట్ పద్ధతి చిట్కా" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "టైమ్-అవుట్ అంటే పారిపోవడం కాదు; పరిస్థితి విషమించకుండా ఇద్దరికీ ఆలోచించే సమయం ఇవ్వడమే. సమయం ముగిశాక శాంతంగా కూర్చుని చర్చించండి." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "impact-on-children-and-atmosphere", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "4. తల్లిదండ్రుల కోపం పిల్లల మానసిక వికాసంపై చూపే తీవ్ర ప్రభావం" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "తల్లిదండ్రుల మధ్య జరిగే తీవ్రమైన వాదనలు, అరుపులు పిల్లల సున్నితమైన మనసులపై తీవ్ర ప్రతికూల ముద్ర వేస్తాయి. నిరంతరం గొడవలు జరిగే ఇళ్లలో పెరిగే పిల్లల్లో అభద్రతా భావం, నిద్రలేమి, భయం, చదువుపై శ్రద్ధ తగ్గడం మరియు భవిష్యత్తులో వారూ తీవ్ర కోపిష్టులుగా మారే ప్రమాదం ఉంది. మీ పిల్లల బంగారు భవిష్యత్తు కోసం, వారు చూసేలా ఎప్పుడూ ఆవేశకావేషాలు ప్రదర్శించకండి." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "పిల్లల మానసిక సంరక్షణ సూత్రం" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "ఒకవేళ అనుకోకుండా పిల్లల ఎదుట వాగ్వాదం జరిగితే, వారి ముందే మీరు ఒకరికొకరు సారీ చెప్పుకుని సమస్యను సామరస్యంగా పరిష్కరించుకున్నట్లు చూపించండి." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("h2", { id: "when-to-seek-professional-counseling", className: "text-2xl font-bold text-slate-900 dark:text-white pt-4 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Shield, { className: "h-6 w-6 text-brand-primary" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "5. ప్రొఫెషనల్ కౌన్సెలింగ్ ఎప్పుడు అవసరం? (When to Consult a Family Counselor)" })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "మీరు ఎంత ప్రయత్నించినా కోపం నియంత్రణలోకి రాకపోతే, సంబంధాలు తెగిపోయే స్థాయికి చేరితే, లేదా గృహహింస జరిగే సూచనలు కనిపిస్తే ఆలస్యం చేయకుండా నిపుణులైన ఫ్యామిలీ కౌన్సెలర్లను లేదా సైకాలజిస్టులను సంప్రదించాలి. జీవన బంధం అందించే ఉచిత కౌన్సెలింగ్ సలహాలు మరియు ప్రభుత్వ జాతీయ హెల్ప్‌లైన్ Tele-MANAS (14416) ద్వారా 24/7 తెలుగులో ఉచిత మానసిక మద్దతు పొందవచ్చు." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-4 rounded-2xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-2", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h4", { className: "font-semibold text-sm text-slate-900 dark:text-slate-100 flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheck, { className: "h-4 w-4 text-emerald-600" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "ఉచిత సహాయ మార్గం" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-600 dark:text-slate-400", children: "మానసిక మద్దతు తీసుకోవడం బలహీనత కాదు, మీ కుటుంబాన్ని కాపాడుకోవడానికి మీరు తీసుకునే అత్యుత్తమ బాధ్యతాయుత నిర్ణయం." })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-8 p-6 rounded-3xl bg-brand-primary/10 border border-brand-primary/30 space-y-3", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-xl font-bold text-brand-primary flex items-center gap-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "h-5 w-5" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "తక్షణ అత్యవసర సహాయం & కౌన్సెలింగ్" })
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-700 dark:text-slate-300", children: "మీరు తీవ్రమైన మానసిక ఆందోళనలో ఉన్నారా? ప్రభుత్వ ఉచిత జాతీయ హెల్ప్‌లైన్లను ఇప్పుడే సంప్రదించండి:" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-3 pt-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:14416", className: "px-4 py-2 bg-brand-primary text-white font-bold rounded-xl text-sm shadow hover:opacity-90 transition", children: "📞 Tele-MANAS: 14416 (24/7 తెలుగు)" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:112", className: "px-4 py-2 bg-rose-600 text-white font-bold rounded-xl text-sm shadow hover:bg-rose-700 transition", children: "🚨 జాతీయ ఎమర్జెన్సీ: 112" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "tel:1098", className: "px-4 py-2 bg-indigo-600 text-white font-bold rounded-xl text-sm shadow hover:bg-indigo-700 transition", children: "🛡️ చైల్డ్‌లైన్: 1098" })
+        ] })
+      ] })
+    ] })
   }
 ];
 function getBlogArticleBySlug(slug) {
@@ -2357,7 +2467,7 @@ const Route$4 = createFileRoute("/child-protection")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./index-BR-gBoEz.mjs");
+const $$splitComponentImporter$1 = () => import("./index-ChoHPHEn.mjs");
 const Route$3 = createFileRoute("/")({
   head: () => ({
     meta: [{
@@ -2895,7 +3005,7 @@ const stories = [
     ] })
   }
 ];
-const $$splitComponentImporter = () => import("../_storyId-CNNWtQeY.mjs");
+const $$splitComponentImporter = () => import("../_storyId-awIxLNbO.mjs");
 const Route$1 = createFileRoute("/stories/$storyId")({
   loader: ({
     params
